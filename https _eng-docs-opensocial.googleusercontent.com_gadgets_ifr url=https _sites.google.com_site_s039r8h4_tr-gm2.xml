@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>https://eng-docs-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s039r8h4/tr-gm2.xml</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css"></head><body id="viewsource" class="highlight" style="tab-size: 4"><pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">xmlns</span>="<a class="attribute-value">http://www.w3.org/1999/xhtml</a>"&gt;</span><span></span><span>&lt;<span class="start-tag">head</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>(function(){/*
+<span id="line3"></span>
+<span id="line4"></span> Copyright The Closure Library Authors.
+<span id="line5"></span> SPDX-License-Identifier: Apache-2.0
+<span id="line6"></span>*/
+<span id="line7"></span>(function(){function e(g){this.t={};this.tick=function(h,m,f){var n=void 0!=f?f:(new Date).getTime();this.t[h]=[n,m];if(void 0==f)try{window.console.timeStamp("CSI/"+h)}catch(q){}};this.getStartTickTime=function(){return this.t.start[0]};this.tick("start",null,g)}var a;if(window.performance)var d=(a=window.performance.timing)&amp;&amp;a.responseStart;var p=0</span><span>&lt;d</span><span>?new e(d):new e;window.jstiming={Timer:e,load:p};if(a){var b=a.navigationStart;0</span><span>&lt;b</span><span>&amp;&amp;d&gt;=b&amp;&amp;(window.jstiming.srt=d-b)}if(a){var c=window.jstiming.load;
+<span id="line8"></span>0</span><span>&lt;b</span><span>&amp;&amp;d&gt;=b&amp;&amp;(c.tick("_wtsrt",void 0,b),c.tick("wtsrt_","_wtsrt",d),c.tick("tbsd_","wtsrt_"))}try{var k=window.top!=window.self,l=window.location.href;a=null;window.chrome&amp;&amp;window.chrome.csi&amp;&amp;(a=Math.floor(window.chrome.csi().pageT),c&amp;&amp;0</span><span>&lt;b</span><span>&amp;&amp;(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b)));null==a&amp;&amp;window.gtbExternal&amp;&amp;(a=k?window.gtbExternal.frameT(l):window.gtbExternal.pageT());null==a&amp;&amp;window.external&amp;&amp;(k?a=window.external.frameT(l):(a=window.external.pageT,c&amp;&amp;0</span><span>&lt;b</span><span>&amp;&amp;(c.tick("_tbnd",
+<span id="line9"></span>void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))));a&amp;&amp;(window.jstiming.pt=a)}catch(g){}})();}).call(this);
+<span id="line10"></span>window["__csi"]={a:false,b:false,c:"default",v:"default",g:null,d:false};if(window.jstiming){window.jstiming.beaconImageReferences_={};window.jstiming.reportCounter_=1;var getTick=function(a,b,d){var c=a.t[b],e=a.t.start;if(c&amp;&amp;(e||d))return c=a.t[b][0],e=void 0!=d?d:e[0],a=c-e,Math.round(a)},getReportUri=function(a,b,d){var c="";window.jstiming.srt&amp;&amp;(c+="&amp;srt="+window.jstiming.srt,delete window.jstiming.srt);window.jstiming.pt&amp;&amp;(c+="&amp;tbsrt="+window.jstiming.pt,delete window.jstiming.pt);try{window.external&amp;&amp;window.external.tran?c+="&amp;tran="+window.external.tran:window.gtbExternal&amp;&amp;
+<span id="line11"></span>window.gtbExternal.tran?c+="&amp;tran="+window.gtbExternal.tran():window.chrome&amp;&amp;window.chrome.csi&amp;&amp;(c+="&amp;tran="+window.chrome.csi().tran)}catch(m){}var e=window.chrome;if(e&amp;&amp;(e=e.loadTimes)){e().wasFetchedViaSpdy&amp;&amp;(c+="&amp;p=s");if(e().wasNpnNegotiated){c+="&amp;npn=1";var f=e().npnNegotiatedProtocol;f&amp;&amp;(c+="&amp;npnv="+(encodeURIComponent||escape)(f))}e().wasAlternateProtocolAvailable&amp;&amp;(c+="&amp;apa=1")}var g=a.t,k=g.start;e=[];f=[];for(var l in g)if("start"!=l&amp;&amp;0!=l.indexOf("_")){var p=g[l][1];p?g[p]&amp;&amp;f.push(l+"."+
+<span id="line12"></span>getTick(a,l,g[p][0])):k&amp;&amp;e.push(l+"."+getTick(a,l))}delete g.start;if(b)for(var h in b)c+="&amp;"+h+"="+b[h];(b=d)||(b="https:"==document.location.protocol?"https://csi.gstatic.com/csi":"http://csi.gstatic.com/csi");return a=[b,"?v=3","&amp;s="+(window.jstiming.sn||"opensocial-gadgets")+"&amp;action=",a.name,f.length?"&amp;it="+f.join(","):"",c,"&amp;rt=",e.join(",")].join("")},sendReport_=function(a,b,d){a=getReportUri(a,b,d);if(!a)return"";b=new Image;var c=window.jstiming.reportCounter_++;window.jstiming.beaconImageReferences_[c]=
+<span id="line13"></span>b;b.onload=b.onerror=function(){window.jstiming&amp;&amp;delete window.jstiming.beaconImageReferences_[c]};b.src=a;b=null;return a};window.jstiming.report=function(a,b,d){var c=document.visibilityState,e="visibilitychange";c||(c=document.webkitVisibilityState,e="webkitvisibilitychange");if("prerender"==c){var f=!1,g=function(){if(!f){b?b.prerender="1":b={prerender:"1"};if("prerender"==(document.visibilityState||document.webkitVisibilityState))var k=!1;else sendReport_(a,b,d),k=!0;k&amp;&amp;(f=!0,document.removeEventListener(e,
+<span id="line14"></span>g,!1))}};document.addEventListener(e,g,!1);return""}return sendReport_(a,b,d)}};/*
+<span id="line15"></span>
+<span id="line16"></span> Copyright The Closure Library Authors.
+<span id="line17"></span> SPDX-License-Identifier: Apache-2.0
+<span id="line18"></span>*/
+<span id="line19"></span>var goog=goog||{};goog.global=this||self;goog.exportPath_=function(a,b,d,c){a=a.split(".");c=c||goog.global;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a[0]);for(var e;a.length&amp;&amp;(e=a.shift());)if(a.length||void 0===b)c=c[e]&amp;&amp;c[e]!==Object.prototype[e]?c[e]:c[e]={};else if(!d&amp;&amp;goog.isObject(b)&amp;&amp;goog.isObject(c[e]))for(var f in b)b.hasOwnProperty(f)&amp;&amp;(c[e][f]=b[f]);else c[e]=b};goog.define=function(a,b){return a=b};goog.FEATURESET_YEAR=2012;goog.DEBUG=!0;goog.LOCALE="en";
+<span id="line20"></span>goog.getLocale=function(){return goog.LOCALE};goog.TRUSTED_SITE=!0;goog.DISALLOW_TEST_ONLY_CODE=!goog.DEBUG;goog.ENABLE_CHROME_APP_SAFE_SCRIPT_LOADING=!1;goog.provide=function(a){if(goog.isInModuleLoader_())throw Error("goog.provide cannot be used within a module.");goog.constructNamespace_(a)};goog.constructNamespace_=function(a,b,d){goog.exportPath_(a,b,d)};goog.NONCE_PATTERN_=/^[\w+/_-]+[=]{0,2}$/;
+<span id="line21"></span>goog.getScriptNonce_=function(a){a=(a||goog.global).document;return(a=a.querySelector&amp;&amp;a.querySelector("script[nonce]"))&amp;&amp;(a=a.nonce||a.getAttribute("nonce"))&amp;&amp;goog.NONCE_PATTERN_.test(a)?a:""};goog.VALID_MODULE_RE_=/^[a-zA-Z_$][a-zA-Z0-9._$]*$/;
+<span id="line22"></span>goog.module=function(a){if("string"!==typeof a||!a||-1==a.search(goog.VALID_MODULE_RE_))throw Error("Invalid module identifier");if(!goog.isInGoogModuleLoader_())throw Error("Module "+a+" has been loaded incorrectly. Note, modules cannot be loaded as normal scripts. They require some kind of pre-processing step. You're likely trying to load a module via a script tag or as a part of a concatenated bundle without rewriting the module. For more info see: https://github.com/google/closure-library/wiki/goog.module:-an-ES6-module-like-alternative-to-goog.provide.");if(goog.moduleLoaderState_.moduleName)throw Error("goog.module may only be called once per module.");
+<span id="line23"></span>goog.moduleLoaderState_.moduleName=a};goog.module.get=function(){return null};goog.module.getInternal_=function(){return null};goog.ModuleType={ES6:"es6",GOOG:"goog"};goog.moduleLoaderState_=null;goog.isInModuleLoader_=function(){return goog.isInGoogModuleLoader_()||goog.isInEs6ModuleLoader_()};goog.isInGoogModuleLoader_=function(){return!!goog.moduleLoaderState_&amp;&amp;goog.moduleLoaderState_.type==goog.ModuleType.GOOG};
+<span id="line24"></span>goog.isInEs6ModuleLoader_=function(){var a=!!goog.moduleLoaderState_&amp;&amp;goog.moduleLoaderState_.type==goog.ModuleType.ES6;return a?!0:(a=goog.global.$jscomp)?"function"!=typeof a.getCurrentModulePath?!1:!!a.getCurrentModulePath():!1};goog.module.declareLegacyNamespace=function(){goog.moduleLoaderState_.declareLegacyNamespace=!0};
+<span id="line25"></span>goog.declareModuleId=function(a){if(goog.moduleLoaderState_)goog.moduleLoaderState_.moduleName=a;else{var b=goog.global.$jscomp;if(!b||"function"!=typeof b.getCurrentModulePath)throw Error('Module with namespace "'+a+'" has been loaded incorrectly.');b=b.require(b.getCurrentModulePath());goog.loadedModules_[a]={exports:b,type:goog.ModuleType.ES6,moduleId:a}}};
+<span id="line26"></span>goog.setTestOnly=function(a){if(goog.DISALLOW_TEST_ONLY_CODE)throw a=a||"",Error("Importing test-only code into non-debug environment"+(a?": "+a:"."));};goog.forwardDeclare=function(){};goog.getObjectByName=function(a,b){a=a.split(".");b=b||goog.global;for(var d=0;d</span><span>&lt;a</span><span>.length;d++)if(b=b[a[d]],null==b)return null;return b};goog.addDependency=function(){};goog.ENABLE_DEBUG_LOADER=!0;goog.logToConsole_=function(a){goog.global.console&amp;&amp;goog.global.console.error(a)};goog.require=function(){};
+<span id="line27"></span>goog.requireType=function(){return{}};goog.basePath="";goog.abstractMethod=function(){throw Error("unimplemented abstract method");};goog.addSingletonGetter=function(a){a.instance_=void 0;a.getInstance=function(){if(a.instance_)return a.instance_;goog.DEBUG&amp;&amp;(goog.instantiatedSingletons_[goog.instantiatedSingletons_.length]=a);return a.instance_=new a}};goog.instantiatedSingletons_=[];goog.LOAD_MODULE_USING_EVAL=!0;goog.SEAL_MODULE_EXPORTS=goog.DEBUG;goog.loadedModules_={};
+<span id="line28"></span>goog.DEPENDENCIES_ENABLED=!1;goog.TRANSPILE="detect";goog.ASSUME_ES_MODULES_TRANSPILED=!1;goog.TRANSPILE_TO_LANGUAGE="";goog.TRANSPILER="transpile.js";goog.TRUSTED_TYPES_POLICY_NAME="goog";goog.hasBadLetScoping=null;
+<span id="line29"></span>goog.loadModule=function(a){var b=goog.moduleLoaderState_;try{goog.moduleLoaderState_={moduleName:"",declareLegacyNamespace:!1,type:goog.ModuleType.GOOG};var d={},c=d;if("function"===typeof a)c=a.call(void 0,c);else if("string"===typeof a)c=goog.loadModuleFromSource_.call(void 0,c,a);else throw Error("Invalid module definition");var e=goog.moduleLoaderState_.moduleName;if("string"===typeof e&amp;&amp;e){goog.moduleLoaderState_.declareLegacyNamespace?(a=d!==c,goog.constructNamespace_(e,c,a)):goog.SEAL_MODULE_EXPORTS&amp;&amp;
+<span id="line30"></span>Object.seal&amp;&amp;"object"==typeof c&amp;&amp;null!=c&amp;&amp;Object.seal(c);var f={exports:c,type:goog.ModuleType.GOOG,moduleId:goog.moduleLoaderState_.moduleName};goog.loadedModules_[e]=f}else throw Error('Invalid module name "'+e+'"');}finally{goog.moduleLoaderState_=b}};goog.loadModuleFromSource_=function(a,b){eval(goog.CLOSURE_EVAL_PREFILTER_.createScript(b));return a};
+<span id="line31"></span>goog.normalizePath_=function(a){a=a.split("/");for(var b=0;b</span><span>&lt;a</span><span>.length;)"."==a[b]?a.splice(b,1):b&amp;&amp;".."==a[b]&amp;&amp;a[b-1]&amp;&amp;".."!=a[b-1]?a.splice(--b,2):b++;return a.join("/")};goog.loadFileSync_=function(a){if(goog.global.CLOSURE_LOAD_FILE_SYNC)return goog.global.CLOSURE_LOAD_FILE_SYNC(a);try{var b=new goog.global.XMLHttpRequest;b.open("get",a,!1);b.send();return 0==b.status||200==b.status?b.responseText:null}catch(d){return null}};
+<span id="line32"></span>goog.transpile_=function(a,b,d){var c=goog.global.$jscomp;c||(goog.global.$jscomp=c={});var e=c.transpile;if(!e){var f=goog.basePath+goog.TRANSPILER,g=goog.loadFileSync_(f);if(g){(function(){(0,eval)(g+"\n//# sourceURL="+f)}).call(goog.global);if(goog.global.$gwtExport&amp;&amp;goog.global.$gwtExport.$jscomp&amp;&amp;!goog.global.$gwtExport.$jscomp.transpile)throw Error('The transpiler did not properly export the "transpile" method. $gwtExport: '+JSON.stringify(goog.global.$gwtExport));goog.global.$jscomp.transpile=
+<span id="line33"></span>goog.global.$gwtExport.$jscomp.transpile;c=goog.global.$jscomp;e=c.transpile}}if(!e){var k=" requires transpilation but no transpiler was found.";k+=' Please add "//javascript/closure:transpiler" as a data dependency to ensure it is included.';e=c.transpile=function(l,p){goog.logToConsole_(p+k);return l}}return e(a,b,d)};goog.typeOf=function(a){var b=typeof a;return"object"!=b?b:a?Array.isArray(a)?"array":b:"null"};
+<span id="line34"></span>goog.isArrayLike=function(a){var b=goog.typeOf(a);return"array"==b||"object"==b&amp;&amp;"number"==typeof a.length};goog.isDateLike=function(a){return goog.isObject(a)&amp;&amp;"function"==typeof a.getFullYear};goog.isObject=function(a){var b=typeof a;return"object"==b&amp;&amp;null!=a||"function"==b};goog.getUid=function(a){return Object.prototype.hasOwnProperty.call(a,goog.UID_PROPERTY_)&amp;&amp;a[goog.UID_PROPERTY_]||(a[goog.UID_PROPERTY_]=++goog.uidCounter_)};goog.hasUid=function(a){return!!a[goog.UID_PROPERTY_]};
+<span id="line35"></span>goog.removeUid=function(a){null!==a&amp;&amp;"removeAttribute"in a&amp;&amp;a.removeAttribute(goog.UID_PROPERTY_);try{delete a[goog.UID_PROPERTY_]}catch(b){}};goog.UID_PROPERTY_="closure_uid_"+(1E9*Math.random()&gt;&gt;&gt;0);goog.uidCounter_=0;
+<span id="line36"></span>goog.cloneObject=function(a){var b=goog.typeOf(a);if("object"==b||"array"==b){if("function"===typeof a.clone)return a.clone();if("undefined"!==typeof Map&amp;&amp;a instanceof Map)return new Map(a);if("undefined"!==typeof Set&amp;&amp;a instanceof Set)return new Set(a);b="array"==b?[]:{};for(var d in a)b[d]=goog.cloneObject(a[d]);return b}return a};goog.bindNative_=function(a,b,d){return a.call.apply(a.bind,arguments)};
+<span id="line37"></span>goog.bindJs_=function(a,b,d){if(!a)throw Error();if(2</span><span>&lt;a</span><span>rguments.length){var c=Array.prototype.slice.call(arguments,2);return function(){var e=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(e,c);return a.apply(b,e)}}return function(){return a.apply(b,arguments)}};goog.bind=function(a,b,d){goog.bind=Function.prototype.bind&amp;&amp;-1!=Function.prototype.bind.toString().indexOf("native code")?goog.bindNative_:goog.bindJs_;return goog.bind.apply(null,arguments)};
+<span id="line38"></span>goog.partial=function(a,b){var d=Array.prototype.slice.call(arguments,1);return function(){var c=d.slice();c.push.apply(c,arguments);return a.apply(this,c)}};goog.now=function(){return Date.now()};goog.globalEval=function(a){(0,eval)(a)};
+<span id="line39"></span>goog.getCssName=function(a,b){if("."==String(a).charAt(0))throw Error('className passed in goog.getCssName must not start with ".". You passed: '+a);var d=function(e){return goog.cssNameMapping_[e]||e},c=function(e){e=e.split("-");for(var f=[],g=0;g</span><span>&lt;e</span><span>.length;g++)f.push(d(e[g]));return f.join("-")};c=goog.cssNameMapping_?"BY_WHOLE"==goog.cssNameMappingStyle_?d:c:function(e){return e};a=b?a+"-"+c(b):c(a);return goog.global.CLOSURE_CSS_NAME_MAP_FN?goog.global.CLOSURE_CSS_NAME_MAP_FN(a):a};
+<span id="line40"></span>goog.setCssNameMapping=function(a,b){goog.cssNameMapping_=a;goog.cssNameMappingStyle_=b};goog.GetMsgOptions=function(){};goog.getMsg=function(a,b,d){d&amp;&amp;d.html&amp;&amp;(a=a.replace(/</span><span>&lt;/<span></span>g</span><span>,"&amp;lt;"));d&amp;&amp;d.unescapeHtmlEntities&amp;&amp;(a=a.replace(/&amp;lt;/g,"</span><span>&lt;"</span><span>).replace(/&amp;gt;/g,"&gt;").replace(/&amp;apos;/g,"'").replace(/&amp;quot;/g,'"').replace(/&amp;amp;/g,"&amp;"));b&amp;&amp;(a=a.replace(/\{\$([^}]+)}/g,function(c,e){return null!=b&amp;&amp;e in b?b[e]:c}));return a};goog.getMsgWithFallback=function(a){return a};
+<span id="line41"></span>goog.exportSymbol=function(a,b,d){goog.exportPath_(a,b,!0,d)};goog.exportProperty=function(a,b,d){a[b]=d};goog.inherits=function(a,b){function d(){}d.prototype=b.prototype;a.superClass_=b.prototype;a.prototype=new d;a.prototype.constructor=a;a.base=function(c,e,f){for(var g=Array(arguments.length-2),k=2;k</span><span>&lt;a</span><span>rguments.length;k++)g[k-2]=arguments[k];return b.prototype[e].apply(c,g)}};goog.scope=function(a){if(goog.isInModuleLoader_())throw Error("goog.scope is not supported within a module.");a.call(goog.global)};
+<span id="line42"></span>goog.defineClass=function(a,b){var d=b.constructor,c=b.statics;d&amp;&amp;d!=Object.prototype.constructor||(d=function(){throw Error("cannot instantiate an interface (no constructor defined).");});d=goog.defineClass.createSealingConstructor_(d,a);a&amp;&amp;goog.inherits(d,a);delete b.constructor;delete b.statics;goog.defineClass.applyProperties_(d.prototype,b);null!=c&amp;&amp;(c instanceof Function?c(d):goog.defineClass.applyProperties_(d,c));return d};goog.defineClass.SEAL_CLASS_INSTANCES=goog.DEBUG;
+<span id="line43"></span>goog.defineClass.createSealingConstructor_=function(a){if(!goog.defineClass.SEAL_CLASS_INSTANCES)return a;var b=function(){var d=a.apply(this,arguments)||this;d[goog.UID_PROPERTY_]=d[goog.UID_PROPERTY_];return d};return b};goog.defineClass.OBJECT_PROTOTYPE_FIELDS_="constructor hasOwnProperty isPrototypeOf propertyIsEnumerable toLocaleString toString valueOf".split(" ");
+<span id="line44"></span>goog.defineClass.applyProperties_=function(a,b){for(var d in b)Object.prototype.hasOwnProperty.call(b,d)&amp;&amp;(a[d]=b[d]);for(var c=0;c</span><span>&lt;g</span><span>oog.defineClass.OBJECT_PROTOTYPE_FIELDS_.length;c++)d=goog.defineClass.OBJECT_PROTOTYPE_FIELDS_[c],Object.prototype.hasOwnProperty.call(b,d)&amp;&amp;(a[d]=b[d])};goog.identity_=function(a){return a};
+<span id="line45"></span>goog.createTrustedTypesPolicy=function(a){var b=null,d=goog.global.trustedTypes;if(!d||!d.createPolicy)return b;try{b=d.createPolicy(a,{createHTML:goog.identity_,createScript:goog.identity_,createScriptURL:goog.identity_})}catch(c){goog.logToConsole_(c.message)}return b};var google=window.google||{};
+<span id="line46"></span>google.csi=function(){function a(h){var m=g?g:document.location.href;return(h=m.match(new RegExp("[?&amp;]"+h+"=([^&amp;#]+)")))?h[1]:null}function b(h){window.jstiming.load.tick(h);f[h]=(new Date).getTime()}function d(){if(!l){var h=a("url")||"default",m=window.__csi||{},r=m.c||"default",v=m.v||"default",q=window.encodeURIComponent?encodeURIComponent:escape;q={gadget:q(h),container:q(r),view:q(v)};var t=window.__dflags||{},u=[];m.g&amp;&amp;u.push(m.g);if(m.d)for(var n in t)"control"!==t[n]&amp;&amp;(q[n]=t[n],"true"===
+<span id="line47"></span>t[n]&amp;&amp;u.push(n));q.e=u.join(",");n=k?k:document.location.protocol;n=e[n];window.jstiming.load.name=[r,"_",v].join("");window.jstiming.report(window.jstiming.load,q,n);(r=window.gadgets)&amp;&amp;r.rpc&amp;&amp;m.b&amp;&amp;(f.url=h,f.id=a("mid"),r.rpc.call(null,"time_iframe",void 0,f));l=!0}}function c(h){window.addEventListener?window.addEventListener("load",h,!1):window.attachEvent&amp;&amp;window.attachEvent("onload",h)}var e={"http:":"http://csi.gstatic.com/csi","https:":"https://gg.google.com/csi"},f={},g,k,l=!1,p=window.__csi||
+<span id="line48"></span>{};p.a?(c(function(){b("prt")}),window.onbeforeunload=function(){d()}):c(function(){b("ol");b("prt");d()});return{reset_:function(){l=!1},mockHref_:function(h){g=h},mockProtocol_:function(h){k=h},report_:d,tickPrtAndReport:function(){b("prt");d()},tickDl:function(){b("dl")}}}();
+<span id="line49"></span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>
+<span id="line50"></span>/* mp-start */
+<span id="line51"></span>window['___jsl']=window['___jsl']||{};
+<span id="line52"></span>/* mp-end */
+<span id="line53"></span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>window['__isgadget']=true;</span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>window['___jsl'] = window['___jsl'] || {};(window['___jsl']['ci'] = (window['___jsl']['ci'] || [])).push({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www.gmodules.com/gadgets/proxy/refresh=%refresh%&amp;container=%container%%rewriteMime%&amp;gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});var safeJSON=window.safeJSON;
+<span id="line54"></span>var tamings___=window.tamings___||[];
+<span id="line55"></span>var bridge___;
+<span id="line56"></span>var caja___=window.caja___;
+<span id="line57"></span>var ___=window.___;;
+<span id="line58"></span>var gapi=window.gapi||{};gapi.client=window.gapi&amp;&amp;window.gapi.client||{};
+<span id="line59"></span>;
+<span id="line60"></span>;
+<span id="line61"></span>var gadgets=window.gadgets||{},shindig=window.shindig||{},osapi=window.osapi=window.osapi||{};
+<span id="line62"></span>;
+<span id="line63"></span>window['___cfg'] = window['___cfg'] || window['___gcfg'];;
+<span id="line64"></span>if(!window.gadgets["config"]){gadgets.config=function(){var f;
+<span id="line65"></span>var h={};
+<span id="line66"></span>var b={};
+<span id="line67"></span>function c(j,l){for(var k in l){if(!l.hasOwnProperty(k)){continue
+<span id="line68"></span>}if(typeof j[k]==="object"&amp;&amp;typeof l[k]==="object"){c(j[k],l[k])
+<span id="line69"></span>}else{j[k]=l[k]
+<span id="line70"></span>}}}function i(){var j=document.scripts||document.getElementsByTagName("script");
+<span id="line71"></span>if(!j||j.length==0){return null
+<span id="line72"></span>}var m;
+<span id="line73"></span>if(f.u){for(var k=0;
+<span id="line74"></span>!m&amp;&amp;k</span><span>&lt;j</span><span>.length;
+<span id="line75"></span>++k){var l=j[k];
+<span id="line76"></span>if(l.src&amp;&amp;l.src.indexOf(f.u)==0){m=l
+<span id="line77"></span>}}}if(!m){m=j[j.length-1]
+<span id="line78"></span>}if(!m.src){return null
+<span id="line79"></span>}return m
+<span id="line80"></span>}function a(j){var k="";
+<span id="line81"></span>if(j.nodeType==3||j.nodeType==4){k=j.nodeValue
+<span id="line82"></span>}else{if(j.innerText){k=j.innerText
+<span id="line83"></span>}else{if(j.innerHTML){k=j.innerHTML
+<span id="line84"></span>}else{if(j.firstChild){var l=[];
+<span id="line85"></span>for(var m=j.firstChild;
+<span id="line86"></span>m;
+<span id="line87"></span>m=m.nextSibling){l.push(a(m))
+<span id="line88"></span>}k=l.join("")
+<span id="line89"></span>}}}}return k
+<span id="line90"></span>}function e(k){if(!k){return{}
+<span id="line91"></span>}var j;
+<span id="line92"></span>while(k.charCodeAt(k.length-1)==0){k=k.substring(0,k.length-1)
+<span id="line93"></span>}try{j=(new Function("return ("+k+"\n)"))()
+<span id="line94"></span>}catch(l){}if(typeof j==="object"){return j
+<span id="line95"></span>}try{j=(new Function("return ({"+k+"\n})"))()
+<span id="line96"></span>}catch(l){}return typeof j==="object"?j:{}
+<span id="line97"></span>}function g(n){var p=window.___cfg;
+<span id="line98"></span>if(p){c(n,p)
+<span id="line99"></span>}var o=i();
+<span id="line100"></span>if(!o){return
+<span id="line101"></span>}var k=a(o);
+<span id="line102"></span>var j=e(k);
+<span id="line103"></span>if(f.f&amp;&amp;f.f.length==1){var m=f.f[0];
+<span id="line104"></span>if(!j[m]){var l={};
+<span id="line105"></span>l[f.f[0]]=j;
+<span id="line106"></span>j=l
+<span id="line107"></span>}}c(n,j)
+<span id="line108"></span>}function d(o){for(var l in h){if(h.hasOwnProperty(l)){var n=h[l];
+<span id="line109"></span>for(var m=0,k=n.length;
+<span id="line110"></span>m</span><span>&lt;k</span><span>;
+<span id="line111"></span>++m){o(l,n[m])
+<span id="line112"></span>}}}}return{register:function(l,k,j,m){var n=h[l];
+<span id="line113"></span>if(!n){n=[];
+<span id="line114"></span>h[l]=n
+<span id="line115"></span>}n.push({validators:k||{},callback:j,callOnUpdate:m})
+<span id="line116"></span>},get:function(j){if(j){return b[j]||{}
+<span id="line117"></span>}return b
+<span id="line118"></span>},init:function(k,j){f=window.___jsl||{};
+<span id="line119"></span>c(b,k);
+<span id="line120"></span>g(b);
+<span id="line121"></span>var l=window.___config||{};
+<span id="line122"></span>c(b,l);
+<span id="line123"></span>d(function(q,p){var o=b[q];
+<span id="line124"></span>if(o&amp;&amp;!j){var m=p.validators;
+<span id="line125"></span>for(var n in m){if(m.hasOwnProperty(n)){if(!m[n](o[n])){throw new Error('Invalid config value "'+o[n]+'" for parameter "'+n+'" in component "'+q+'"')
+<span id="line126"></span>}}}}if(p.callback){p.callback(b)
+<span id="line127"></span>}})
+<span id="line128"></span>},update:function(k,p){var o=(window.gapi&amp;&amp;window.gapi["config"]&amp;&amp;window.gapi["config"]["update"]);
+<span id="line129"></span>if(!p&amp;&amp;o){o(k)
+<span id="line130"></span>}var n=[];
+<span id="line131"></span>d(function(q,j){if(k.hasOwnProperty(q)||(p&amp;&amp;b&amp;&amp;b[q])){if(j.callback&amp;&amp;j.callOnUpdate){n.push(j.callback)
+<span id="line132"></span>}}});
+<span id="line133"></span>b=p?{}:b||{};
+<span id="line134"></span>c(b,k);
+<span id="line135"></span>for(var m=0,l=n.length;
+<span id="line136"></span>m</span><span>&lt;l</span><span>;
+<span id="line137"></span>++m){n[m](b)
+<span id="line138"></span>}}}
+<span id="line139"></span>}()
+<span id="line140"></span>}else{gadgets.config=window.gadgets["config"];
+<span id="line141"></span>gadgets.config.register=gadgets.config.register;
+<span id="line142"></span>gadgets.config.get=gadgets.config.get;
+<span id="line143"></span>gadgets.config.init=gadgets.config.init;
+<span id="line144"></span>gadgets.config.update=gadgets.config.update
+<span id="line145"></span>};;
+<span id="line146"></span>gadgets.log=(function(){var e=1;
+<span id="line147"></span>var a=2;
+<span id="line148"></span>var f=3;
+<span id="line149"></span>var c=4;
+<span id="line150"></span>var d=function(i){b(e,i)
+<span id="line151"></span>};
+<span id="line152"></span>gadgets.warn=function(i){b(a,i)
+<span id="line153"></span>};
+<span id="line154"></span>gadgets.error=function(i){b(f,i)
+<span id="line155"></span>};
+<span id="line156"></span>gadgets.debug=function(i){};
+<span id="line157"></span>gadgets.setLogLevel=function(i){h=i
+<span id="line158"></span>};
+<span id="line159"></span>function b(k,i){if(k</span><span>&lt;h</span><span>||!g){return
+<span id="line160"></span>}if(k===a&amp;&amp;g.warn){g.warn(i)
+<span id="line161"></span>}else{if(k===f&amp;&amp;g.error){try{g.error(i)
+<span id="line162"></span>}catch(j){}}else{if(g.log){g.log(i)
+<span id="line163"></span>}}}}d.INFO=e;
+<span id="line164"></span>d.WARNING=a;
+<span id="line165"></span>d.NONE=c;
+<span id="line166"></span>var h=e;
+<span id="line167"></span>var g=window.console?window.console:window.opera?window.opera.postError:undefined;
+<span id="line168"></span>return d
+<span id="line169"></span>})();;
+<span id="line170"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets,"log"],[gadgets,"warn"],[gadgets,"error"],[gadgets,"setLogLevel"]]);
+<span id="line171"></span>caja___.whitelistProps([[gadgets.log,"INFO"],[gadgets.log,"WARNING"],[gadgets.log,"ERROR"],[gadgets.log,"NONE"]])
+<span id="line172"></span>});;
+<span id="line173"></span>;
+<span id="line174"></span>(function(){gadgets.config.EnumValidator=function(d){var c=[];
+<span id="line175"></span>if(arguments.length&gt;1){for(var b=0,a;
+<span id="line176"></span>(a=arguments[b]);
+<span id="line177"></span>++b){c.push(a)
+<span id="line178"></span>}}else{c=d
+<span id="line179"></span>}return function(f){for(var e=0,g;
+<span id="line180"></span>(g=c[e]);
+<span id="line181"></span>++e){if(f===c[e]){return true
+<span id="line182"></span>}}return false
+<span id="line183"></span>}
+<span id="line184"></span>};
+<span id="line185"></span>gadgets.config.RegExValidator=function(a){return function(b){return a.test(b)
+<span id="line186"></span>}
+<span id="line187"></span>};
+<span id="line188"></span>gadgets.config.ExistsValidator=function(a){return typeof a!=="undefined"
+<span id="line189"></span>};
+<span id="line190"></span>gadgets.config.NonEmptyStringValidator=function(a){return typeof a==="string"&amp;&amp;a.length&gt;0
+<span id="line191"></span>};
+<span id="line192"></span>gadgets.config.BooleanValidator=function(a){return typeof a==="boolean"
+<span id="line193"></span>};
+<span id="line194"></span>gadgets.config.LikeValidator=function(a){return function(c){for(var d in a){if(a.hasOwnProperty(d)){var b=a[d];
+<span id="line195"></span>if(!b(c[d])){return false
+<span id="line196"></span>}}}return true
+<span id="line197"></span>}
+<span id="line198"></span>}
+<span id="line199"></span>})();;
+<span id="line200"></span>gadgets.util=gadgets.util||{};
+<span id="line201"></span>(function(){gadgets.util.makeClosure=function(d,f,e){var c=[];
+<span id="line202"></span>for(var b=2,a=arguments.length;
+<span id="line203"></span>b</span><span>&lt;a</span><span>;
+<span id="line204"></span>++b){c.push(arguments[b])
+<span id="line205"></span>}return function(){var g=c.slice();
+<span id="line206"></span>for(var k=0,h=arguments.length;
+<span id="line207"></span>k</span><span>&lt;h</span><span>;
+<span id="line208"></span>++k){g.push(arguments[k])
+<span id="line209"></span>}return f.apply(d,g)
+<span id="line210"></span>}
+<span id="line211"></span>};
+<span id="line212"></span>gadgets.util.makeEnum=function(b){var c,a,d={};
+<span id="line213"></span>for(c=0;
+<span id="line214"></span>(a=b[c]);
+<span id="line215"></span>++c){d[a]=a
+<span id="line216"></span>}return d
+<span id="line217"></span>}
+<span id="line218"></span>})();;
+<span id="line219"></span>gadgets.util=gadgets.util||{};
+<span id="line220"></span>(function(){var c="http://www.w3.org/1999/xhtml";
+<span id="line221"></span>function b(f,e){var h=e||{};
+<span id="line222"></span>for(var g in h){if(h.hasOwnProperty(g)){f[g]=h[g]
+<span id="line223"></span>}}}function d(g,f){var e=["</span><span>&lt;"</span><span>,g];
+<span id="line224"></span>var i=f||{};
+<span id="line225"></span>for(var h in i){if(i.hasOwnProperty(h)){e.push(" ");
+<span id="line226"></span>e.push(h);
+<span id="line227"></span>e.push('="');
+<span id="line228"></span>e.push(gadgets.util.escapeString(i[h]));
+<span id="line229"></span>e.push('"')
+<span id="line230"></span>}}e.push("&gt;</span><span>&lt;/<span></span>"</span><span>);
+<span id="line231"></span>e.push(g);
+<span id="line232"></span>e.push("&gt;");
+<span id="line233"></span>return e.join("")
+<span id="line234"></span>}function a(f){var g="";
+<span id="line235"></span>if(f.nodeType==3||f.nodeType==4){g=f.nodeValue
+<span id="line236"></span>}else{if(f.innerText){g=f.innerText
+<span id="line237"></span>}else{if(f.innerHTML){g=f.innerHTML
+<span id="line238"></span>}else{if(f.firstChild){var e=[];
+<span id="line239"></span>for(var h=f.firstChild;
+<span id="line240"></span>h;
+<span id="line241"></span>h=h.nextSibling){e.push(a(h))
+<span id="line242"></span>}g=e.join("")
+<span id="line243"></span>}}}}return g
+<span id="line244"></span>}gadgets.util.createElement=function(f){var e;
+<span id="line245"></span>if((!document.body)||document.body.namespaceURI){try{e=document.createElementNS(c,f)
+<span id="line246"></span>}catch(g){}}return e||document.createElement(f)
+<span id="line247"></span>};
+<span id="line248"></span>gadgets.util.createIframeElement=function(g){var i=gadgets.util.createElement("iframe");
+<span id="line249"></span>try{var e=d("iframe",g);
+<span id="line250"></span>var f=gadgets.util.createElement(e);
+<span id="line251"></span>if(f&amp;&amp;((!i)||((f.tagName==i.tagName)&amp;&amp;(f.namespaceURI==i.namespaceURI)))){i=f
+<span id="line252"></span>}}catch(h){}b(i,g);
+<span id="line253"></span>return i
+<span id="line254"></span>};
+<span id="line255"></span>gadgets.util.getBodyElement=function(){if(document.body){return document.body
+<span id="line256"></span>}try{var f=document.getElementsByTagNameNS(c,"body");
+<span id="line257"></span>if(f&amp;&amp;(f.length==1)){return f[0]
+<span id="line258"></span>}}catch(e){}return document.documentElement||document
+<span id="line259"></span>};
+<span id="line260"></span>gadgets.util.getInnerText=function(e){return a(e)
+<span id="line261"></span>}
+<span id="line262"></span>})();;
+<span id="line263"></span>gadgets.util=gadgets.util||{};
+<span id="line264"></span>(function(){gadgets.util.attachBrowserEvent=function(c,b,d,a){if(typeof c.addEventListener!="undefined"){c.addEventListener(b,d,a)
+<span id="line265"></span>}else{if(typeof c.attachEvent!="undefined"){c.attachEvent("on"+b,d)
+<span id="line266"></span>}else{gadgets.warn("cannot attachBrowserEvent: "+b)
+<span id="line267"></span>}}};
+<span id="line268"></span>gadgets.util.removeBrowserEvent=function(c,b,d,a){if(c.removeEventListener){c.removeEventListener(b,d,a)
+<span id="line269"></span>}else{if(c.detachEvent){c.detachEvent("on"+b,d)
+<span id="line270"></span>}else{gadgets.warn("cannot removeBrowserEvent: "+b)
+<span id="line271"></span>}}}
+<span id="line272"></span>})();;
+<span id="line273"></span>gadgets.util=gadgets.util||{};
+<span id="line274"></span>(function(){var a=[];
+<span id="line275"></span>gadgets.util.registerOnLoadHandler=function(b){a.push(b)
+<span id="line276"></span>};
+<span id="line277"></span>gadgets.util.runOnLoadHandlers=function(){for(var c=0,b=a.length;
+<span id="line278"></span>c</span><span>&lt;b</span><span>;
+<span id="line279"></span>++c){a[c]()
+<span id="line280"></span>}}
+<span id="line281"></span>})();;
+<span id="line282"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets.util,"registerOnLoadHandler"]])
+<span id="line283"></span>});;
+<span id="line284"></span>gadgets.util=gadgets.util||{};
+<span id="line285"></span>(function(){var a={0:false,10:true,13:true,34:true,39:true,60:true,62:true,92:true,8232:true,8233:true,65282:true,65287:true,65308:true,65310:true,65340:true};
+<span id="line286"></span>function b(c,d){return String.fromCharCode(d)
+<span id="line287"></span>}gadgets.util.escape=function(c,g){if(!c){return c
+<span id="line288"></span>}else{if(typeof c==="string"){return gadgets.util.escapeString(c)
+<span id="line289"></span>}else{if(typeof c==="Array"){for(var f=0,d=c.length;
+<span id="line290"></span>f</span><span>&lt;d</span><span>;
+<span id="line291"></span>++f){c[f]=gadgets.util.escape(c[f])
+<span id="line292"></span>}}else{if(typeof c==="object"&amp;&amp;g){var e={};
+<span id="line293"></span>for(var h in c){if(c.hasOwnProperty(h)){e[gadgets.util.escapeString(h)]=gadgets.util.escape(c[h],true)
+<span id="line294"></span>}}return e
+<span id="line295"></span>}}}}return c
+<span id="line296"></span>};
+<span id="line297"></span>gadgets.util.escapeString=function(g){if(!g){return g
+<span id="line298"></span>}var d=[],f,h;
+<span id="line299"></span>for(var e=0,c=g.length;
+<span id="line300"></span>e</span><span>&lt;c</span><span>;
+<span id="line301"></span>++e){f=g.charCodeAt(e);
+<span id="line302"></span>h=a[f];
+<span id="line303"></span>if(h===true){d.push("&amp;#",f,";")
+<span id="line304"></span>}else{if(h!==false){d.push(g.charAt(e))
+<span id="line305"></span>}}}return d.join("")
+<span id="line306"></span>};
+<span id="line307"></span>gadgets.util.unescapeString=function(c){if(!c){return c
+<span id="line308"></span>}return c.replace(/&amp;#([0-9]+);/g,b)
+<span id="line309"></span>}
+<span id="line310"></span>})();;
+<span id="line311"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets.util,"escape"],[gadgets.util,"escapeString"],[gadgets.util,"unescapeString"]])
+<span id="line312"></span>});;
+<span id="line313"></span>gadgets.util=gadgets.util||{};
+<span id="line314"></span>(function(){var a=null;
+<span id="line315"></span>function b(e){var f;
+<span id="line316"></span>var c=e.indexOf("?");
+<span id="line317"></span>var d=e.indexOf("#");
+<span id="line318"></span>if(d===-1){f=e.substr(c+1)
+<span id="line319"></span>}else{f=[e.substr(c+1,d-c-1),"&amp;",e.substr(d+1)].join("")
+<span id="line320"></span>}return f.split("&amp;")
+<span id="line321"></span>}gadgets.util.getUrlParameters=function(p){var d=typeof p==="undefined";
+<span id="line322"></span>if(a!==null&amp;&amp;d){return a
+<span id="line323"></span>}var l={};
+<span id="line324"></span>var f=b(p||window.location.href);
+<span id="line325"></span>var n=window.decodeURIComponent?decodeURIComponent:unescape;
+<span id="line326"></span>for(var h=0,g=f.length;
+<span id="line327"></span>h</span><span>&lt;g</span><span>;
+<span id="line328"></span>++h){var m=f[h].indexOf("=");
+<span id="line329"></span>if(m===-1){continue
+<span id="line330"></span>}var c=f[h].substring(0,m);
+<span id="line331"></span>var o=f[h].substring(m+1);
+<span id="line332"></span>o=o.replace(/\+/g," ");
+<span id="line333"></span>try{l[c]=n(o)
+<span id="line334"></span>}catch(k){}}if(d){a=l
+<span id="line335"></span>}return l
+<span id="line336"></span>};
+<span id="line337"></span>gadgets.util.getUrlParameters()
+<span id="line338"></span>})();;
+<span id="line339"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets.util,"getUrlParameters"]])
+<span id="line340"></span>});;
+<span id="line341"></span>gadgets.util=gadgets.util||{};
+<span id="line342"></span>(function(){var b={};
+<span id="line343"></span>var a={};
+<span id="line344"></span>function c(d){b=d["core.util"]||{}
+<span id="line345"></span>}if(gadgets.config){gadgets.config.register("core.util",null,c)
+<span id="line346"></span>}gadgets.util.getFeatureParameters=function(d){return typeof b[d]==="undefined"?null:b[d]
+<span id="line347"></span>};
+<span id="line348"></span>gadgets.util.hasFeature=function(d){return typeof b[d]!=="undefined"
+<span id="line349"></span>};
+<span id="line350"></span>gadgets.util.getServices=function(){return a
+<span id="line351"></span>}
+<span id="line352"></span>})();;
+<span id="line353"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets.util,"getFeatureParameters"],[gadgets.util,"hasFeature"]])
+<span id="line354"></span>});;
+<span id="line355"></span>shindig.Auth=function(){var authToken=null;
+<span id="line356"></span>var trusted=null;
+<span id="line357"></span>function addParamsToToken(urlParams){var args=authToken.split("&amp;");
+<span id="line358"></span>for(var i=0;
+<span id="line359"></span>i</span><span>&lt;a</span><span>rgs.length;
+<span id="line360"></span>i++){var nameAndValue=args[i].split("=");
+<span id="line361"></span>if(nameAndValue.length===2){var name=nameAndValue[0];
+<span id="line362"></span>var value=nameAndValue[1];
+<span id="line363"></span>if(value==="$"){value=encodeURIComponent(urlParams[name]);
+<span id="line364"></span>args[i]=name+"="+value
+<span id="line365"></span>}}}authToken=args.join("&amp;")
+<span id="line366"></span>}function init(configuration){var urlParams=gadgets.util.getUrlParameters();
+<span id="line367"></span>var config=configuration["shindig.auth"]||{};
+<span id="line368"></span>if(config.authToken){authToken=config.authToken
+<span id="line369"></span>}else{if(urlParams.st){authToken=urlParams.st
+<span id="line370"></span>}}if(authToken!==null){addParamsToToken(urlParams)
+<span id="line371"></span>}if(config.trustedJson){trusted=(eval("("+config.trustedJson+")"))
+<span id="line372"></span>}}gadgets.config.register("shindig.auth",null,init);
+<span id="line373"></span>return{getSecurityToken:function(){return authToken
+<span id="line374"></span>},updateSecurityToken:function(newToken){authToken=newToken
+<span id="line375"></span>},getTrustedData:function(){return trusted
+<span id="line376"></span>}}
+<span id="line377"></span>};;
+<span id="line378"></span>shindig.auth=new shindig.Auth();;
+<span id="line379"></span>if(window.JSON&amp;&amp;window.JSON.parse&amp;&amp;window.JSON.stringify){gadgets.json=(function(){var a=/___$/;
+<span id="line380"></span>function b(d,e){var c=this[d];
+<span id="line381"></span>return c
+<span id="line382"></span>}return{parse:function(d){try{return window.JSON.parse(d)
+<span id="line383"></span>}catch(c){return false
+<span id="line384"></span>}},stringify:function(d){var h=window.JSON.stringify;
+<span id="line385"></span>function f(e){return h.call(this,e,b)
+<span id="line386"></span>}var g=(Array.prototype.toJSON&amp;&amp;h([{x:1}])==='"[{\\"x\\": 1}]"')?f:h;
+<span id="line387"></span>try{return g(d,function(i,e){return !a.test(i)?e:void 0
+<span id="line388"></span>})
+<span id="line389"></span>}catch(c){return null
+<span id="line390"></span>}}}
+<span id="line391"></span>})()
+<span id="line392"></span>};;
+<span id="line393"></span>;
+<span id="line394"></span>if(!(window.JSON&amp;&amp;window.JSON.parse&amp;&amp;window.JSON.stringify)){gadgets.json=function(){function f(n){return n</span><span>&lt;1</span><span>0?"0"+n:n
+<span id="line395"></span>}Date.prototype.toJSON=function(){return[this.getUTCFullYear(),"-",f(this.getUTCMonth()+1),"-",f(this.getUTCDate()),"T",f(this.getUTCHours()),":",f(this.getUTCMinutes()),":",f(this.getUTCSeconds()),"Z"].join("")
+<span id="line396"></span>};
+<span id="line397"></span>var m={"\b":"\\b","\t":"\\t","\n":"\\n","\f":"\\f","\r":"\\r",'"':'\\"',"\\":"\\\\"};
+<span id="line398"></span>function stringify(value){var a,i,k,l,r=/[\"\\\x00-\x1f\x7f-\x9f]/g,v;
+<span id="line399"></span>switch(typeof value){case"string":return r.test(value)?'"'+value.replace(r,function(a){var c=m[a];
+<span id="line400"></span>if(c){return c
+<span id="line401"></span>}c=a.charCodeAt();
+<span id="line402"></span>return"\\u00"+Math.floor(c/16).toString(16)+(c%16).toString(16)
+<span id="line403"></span>})+'"':'"'+value+'"';
+<span id="line404"></span>case"number":return isFinite(value)?String(value):"null";
+<span id="line405"></span>case"boolean":case"null":return String(value);
+<span id="line406"></span>case"object":if(!value){return"null"
+<span id="line407"></span>}a=[];
+<span id="line408"></span>if(typeof value.length==="number"&amp;&amp;!value.propertyIsEnumerable("length")){l=value.length;
+<span id="line409"></span>for(i=0;
+<span id="line410"></span>i</span><span>&lt;l</span><span>;
+<span id="line411"></span>i+=1){a.push(stringify(value[i])||"null")
+<span id="line412"></span>}return"["+a.join(",")+"]"
+<span id="line413"></span>}for(k in value){if(/___$/.test(k)){continue
+<span id="line414"></span>}if(value.hasOwnProperty(k)){if(typeof k==="string"){v=stringify(value[k]);
+<span id="line415"></span>if(v){a.push(stringify(k)+":"+v)
+<span id="line416"></span>}}}}return"{"+a.join(",")+"}"
+<span id="line417"></span>}return""
+<span id="line418"></span>}return{stringify:stringify,parse:function(text){if(/^[\],:{}\s]*$/.test(text.replace(/\\["\\\/b-u]/g,"@").replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,"]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){return eval("("+text+")")
+<span id="line419"></span>}return false
+<span id="line420"></span>}}
+<span id="line421"></span>}()
+<span id="line422"></span>};;
+<span id="line423"></span>gadgets.json.flatten=function(c){var d={};
+<span id="line424"></span>if(c===null||c===undefined){return d
+<span id="line425"></span>}for(var a in c){if(c.hasOwnProperty(a)){var b=c[a];
+<span id="line426"></span>if(null===b||undefined===b){continue
+<span id="line427"></span>}d[a]=(typeof b==="string")?b:gadgets.json.stringify(b)
+<span id="line428"></span>}}return d
+<span id="line429"></span>};;
+<span id="line430"></span>gadgets.io=function(){var config={};
+<span id="line431"></span>var oauthState;
+<span id="line432"></span>function makeXhr(){var x;
+<span id="line433"></span>var wrapperXhr=window.shindig&amp;&amp;window.shindig["xhrwrapper"]&amp;&amp;window.shindig["xhrwrapper"]["createXHR"];
+<span id="line434"></span>if(wrapperXhr){return wrapperXhr()
+<span id="line435"></span>}else{if(typeof ActiveXObject!="undefined"){x=new ActiveXObject("Msxml2.XMLHTTP");
+<span id="line436"></span>if(!x){x=new ActiveXObject("Microsoft.XMLHTTP")
+<span id="line437"></span>}return x
+<span id="line438"></span>}else{if(typeof XMLHttpRequest!="undefined"||window.XMLHttpRequest){return new window.XMLHttpRequest()
+<span id="line439"></span>}else{throw ("no xhr available")
+<span id="line440"></span>}}}}function hadError(xobj,callback){if(xobj.readyState!==4){return true
+<span id="line441"></span>}try{if(xobj.status!==200){var error=(""+xobj.status);
+<span id="line442"></span>if(xobj.responseText){error=error+" "+xobj.responseText
+<span id="line443"></span>}callback({errors:[error],rc:xobj.status,text:xobj.responseText});
+<span id="line444"></span>return true
+<span id="line445"></span>}}catch(e){callback({errors:[e.number+" Error not specified"],rc:e.number,text:e.description});
+<span id="line446"></span>return true
+<span id="line447"></span>}return false
+<span id="line448"></span>}function processNonProxiedResponse(url,callback,params,xobj){if(hadError(xobj,callback)){return
+<span id="line449"></span>}var data={body:xobj.responseText};
+<span id="line450"></span>callback(transformResponseData(params,data))
+<span id="line451"></span>}var UNPARSEABLE_CRUFT="throw 1; </span><span>&lt; </span><span>don't be evil' &gt;";
+<span id="line452"></span>function processResponse(url,callback,params,xobj){if(hadError(xobj,callback)){return
+<span id="line453"></span>}var txt=xobj.responseText;
+<span id="line454"></span>var offset=txt.indexOf(UNPARSEABLE_CRUFT)+UNPARSEABLE_CRUFT.length;
+<span id="line455"></span>if(offset</span><span>&lt;U</span><span>NPARSEABLE_CRUFT.length){return
+<span id="line456"></span>}txt=txt.substr(offset);
+<span id="line457"></span>var data=eval("("+txt+")");
+<span id="line458"></span>data=data[url];
+<span id="line459"></span>if(data.oauthState){oauthState=data.oauthState
+<span id="line460"></span>}if(data.st){shindig.auth.updateSecurityToken(data.st)
+<span id="line461"></span>}callback(transformResponseData(params,data))
+<span id="line462"></span>}function transformResponseData(params,data){var resp={text:data.body,rc:data.rc||200,headers:data.headers,oauthApprovalUrl:data.oauthApprovalUrl,oauthError:data.oauthError,oauthErrorText:data.oauthErrorText,errors:[]};
+<span id="line463"></span>if(resp.rc</span><span>&lt;2</span><span>00||resp.rc&gt;=400){resp.errors=[resp.rc+" Error"]
+<span id="line464"></span>}else{if(resp.text){if(resp.rc&gt;=300&amp;&amp;resp.rc</span><span>&lt;4</span><span>00){params.CONTENT_TYPE="TEXT"
+<span id="line465"></span>}switch(params.CONTENT_TYPE){case"JSON":case"FEED":resp.data=gadgets.json.parse(resp.text);
+<span id="line466"></span>if(!resp.data){resp.errors.push("500 Failed to parse JSON");
+<span id="line467"></span>resp.rc=500;
+<span id="line468"></span>resp.data=null
+<span id="line469"></span>}break;
+<span id="line470"></span>case"DOM":var dom;
+<span id="line471"></span>if(typeof ActiveXObject!="undefined"){dom=new ActiveXObject("Microsoft.XMLDOM");
+<span id="line472"></span>dom.async=false;
+<span id="line473"></span>dom.validateOnParse=false;
+<span id="line474"></span>dom.resolveExternals=false;
+<span id="line475"></span>if(!dom.loadXML(resp.text)){resp.errors.push("500 Failed to parse XML");
+<span id="line476"></span>resp.rc=500
+<span id="line477"></span>}else{resp.data=dom
+<span id="line478"></span>}}else{var parser=new DOMParser();
+<span id="line479"></span>dom=parser.parseFromString(resp.text,"text/xml");
+<span id="line480"></span>if("parsererror"===dom.documentElement.nodeName){resp.errors.push("500 Failed to parse XML");
+<span id="line481"></span>resp.rc=500
+<span id="line482"></span>}else{resp.data=dom
+<span id="line483"></span>}}break;
+<span id="line484"></span>default:resp.data=resp.text;
+<span id="line485"></span>break
+<span id="line486"></span>}}}return resp
+<span id="line487"></span>}function makeXhrRequest(realUrl,proxyUrl,callback,paramData,method,params,processResponseFunction,opt_headers){var xhr=makeXhr();
+<span id="line488"></span>if(proxyUrl.indexOf("//")==0){proxyUrl=document.location.protocol+proxyUrl
+<span id="line489"></span>}xhr.open(method,proxyUrl,true);
+<span id="line490"></span>if(callback){xhr.onreadystatechange=gadgets.util.makeClosure(null,processResponseFunction,realUrl,callback,params,xhr)
+<span id="line491"></span>}if(paramData!==null){var contentTypeHeader="Content-Type";
+<span id="line492"></span>var contentType="application/x-www-form-urlencoded";
+<span id="line493"></span>if(typeof opt_headers==="string"){contentType=opt_headers;
+<span id="line494"></span>opt_headers={}
+<span id="line495"></span>}var headers=opt_headers||{};
+<span id="line496"></span>if(!headers[contentTypeHeader]){headers[contentTypeHeader]=contentType
+<span id="line497"></span>}for(var headerName in headers){xhr.setRequestHeader(headerName,headers[headerName])
+<span id="line498"></span>}}xhr.send(paramData)
+<span id="line499"></span>}function respondWithPreload(postData,params,callback){if(gadgets.io.preloaded_&amp;&amp;postData.httpMethod==="GET"){for(var i=0;
+<span id="line500"></span>i</span><span>&lt;g</span><span>adgets.io.preloaded_.length;
+<span id="line501"></span>i++){var preload=gadgets.io.preloaded_[i];
+<span id="line502"></span>if(preload&amp;&amp;(preload.id===postData.url)){delete gadgets.io.preloaded_[i];
+<span id="line503"></span>if(preload.rc!==200){callback({rc:preload.rc,errors:[preload.rc+" Error"]})
+<span id="line504"></span>}else{if(preload.oauthState){oauthState=preload.oauthState
+<span id="line505"></span>}var resp={body:preload.body,rc:preload.rc,headers:preload.headers,oauthApprovalUrl:preload.oauthApprovalUrl,oauthError:preload.oauthError,oauthErrorText:preload.oauthErrorText,errors:[]};
+<span id="line506"></span>callback(transformResponseData(params,resp))
+<span id="line507"></span>}return true
+<span id="line508"></span>}}}return false
+<span id="line509"></span>}function init(configuration){config=configuration["core.io"]||{}
+<span id="line510"></span>}gadgets.config.register("core.io",null,init);
+<span id="line511"></span>return{makeRequest:function(url,callback,opt_params){var params=opt_params||{};
+<span id="line512"></span>var httpMethod=params.METHOD||"GET";
+<span id="line513"></span>var refreshInterval=params.REFRESH_INTERVAL;
+<span id="line514"></span>var auth,st;
+<span id="line515"></span>if(params.AUTHORIZATION&amp;&amp;params.AUTHORIZATION!=="NONE"){auth=params.AUTHORIZATION.toLowerCase();
+<span id="line516"></span>st=shindig.auth.getSecurityToken()
+<span id="line517"></span>}else{if(httpMethod==="GET"&amp;&amp;refreshInterval===undefined){refreshInterval=3600
+<span id="line518"></span>}}var signOwner=true;
+<span id="line519"></span>if(typeof params.OWNER_SIGNED!=="undefined"){signOwner=params.OWNER_SIGNED
+<span id="line520"></span>}var signViewer=true;
+<span id="line521"></span>if(typeof params.VIEWER_SIGNED!=="undefined"){signViewer=params.VIEWER_SIGNED
+<span id="line522"></span>}var headers=params.HEADERS||{};
+<span id="line523"></span>if(httpMethod==="POST"&amp;&amp;!headers["Content-Type"]){headers["Content-Type"]="application/x-www-form-urlencoded"
+<span id="line524"></span>}var urlParams=gadgets.util.getUrlParameters();
+<span id="line525"></span>var paramData={url:url,httpMethod:httpMethod,headers:gadgets.io.encodeValues(headers,false),postData:params.POST_DATA||"",authz:auth||"",st:st||"",contentType:params.CONTENT_TYPE||"TEXT",numEntries:params.NUM_ENTRIES||"3",getSummaries:!!params.GET_SUMMARIES,signOwner:signOwner,signViewer:signViewer,gadget:urlParams.url,container:urlParams.container||urlParams.synd||"default",bypassSpecCache:gadgets.util.getUrlParameters()["nocache"]||"",getFullHeaders:!!params.GET_FULL_HEADERS};
+<span id="line526"></span>if(auth==="oauth"||auth==="signed"){if(gadgets.io.oauthReceivedCallbackUrl_){paramData.OAUTH_RECEIVED_CALLBACK=gadgets.io.oauthReceivedCallbackUrl_;
+<span id="line527"></span>gadgets.io.oauthReceivedCallbackUrl_=null
+<span id="line528"></span>}paramData.oauthState=oauthState||"";
+<span id="line529"></span>for(var opt in params){if(params.hasOwnProperty(opt)){if(opt.indexOf("OAUTH_")===0){paramData[opt]=params[opt]
+<span id="line530"></span>}}}}var proxyUrl=config.jsonProxyUrl.replace("%host%",document.location.host);
+<span id="line531"></span>if(!respondWithPreload(paramData,params,callback)){if(httpMethod==="GET"&amp;&amp;refreshInterval&gt;0){var extraparams="?refresh="+refreshInterval+"&amp;"+gadgets.io.encodeValues(paramData);
+<span id="line532"></span>makeXhrRequest(url,proxyUrl+extraparams,callback,null,"GET",params,processResponse)
+<span id="line533"></span>}else{makeXhrRequest(url,proxyUrl,callback,gadgets.io.encodeValues(paramData),"POST",params,processResponse)
+<span id="line534"></span>}}},makeNonProxiedRequest:function(relativeUrl,callback,opt_params,opt_headers){var params=opt_params||{};
+<span id="line535"></span>makeXhrRequest(relativeUrl,relativeUrl,callback,params.POST_DATA,params.METHOD,params,processNonProxiedResponse,opt_headers)
+<span id="line536"></span>},clearOAuthState:function(){oauthState=undefined
+<span id="line537"></span>},encodeValues:function(fields,opt_noEscaping){var escape=!opt_noEscaping;
+<span id="line538"></span>var buf=[];
+<span id="line539"></span>var first=false;
+<span id="line540"></span>for(var i in fields){if(fields.hasOwnProperty(i)&amp;&amp;!/___$/.test(i)){if(!first){first=true
+<span id="line541"></span>}else{buf.push("&amp;")
+<span id="line542"></span>}buf.push(escape?encodeURIComponent(String(i)):i);
+<span id="line543"></span>buf.push("=");
+<span id="line544"></span>buf.push(escape?encodeURIComponent(String(fields[i])):fields[i])
+<span id="line545"></span>}}return buf.join("")
+<span id="line546"></span>},getProxyUrl:function(url,opt_params){var params=opt_params||{};
+<span id="line547"></span>var refresh=params.REFRESH_INTERVAL;
+<span id="line548"></span>if(refresh===undefined){refresh="3600"
+<span id="line549"></span>}var urlParams=gadgets.util.getUrlParameters();
+<span id="line550"></span>var rewriteMimeParam=params.rewriteMime?"&amp;rewriteMime="+encodeURIComponent(String(params.rewriteMime)):"";
+<span id="line551"></span>var ret=config.proxyUrl.replace("%url%",encodeURIComponent(url)).replace("%host%",document.location.host).replace("%rawurl%",url).replace("%refresh%",encodeURIComponent(String(refresh))).replace("%gadget%",encodeURIComponent(urlParams.url)).replace("%container%",encodeURIComponent(urlParams.container||urlParams.synd||"default")).replace("%rewriteMime%",rewriteMimeParam);
+<span id="line552"></span>if(ret.indexOf("//")==0){ret=window.location.protocol+ret
+<span id="line553"></span>}return ret
+<span id="line554"></span>}}
+<span id="line555"></span>}();
+<span id="line556"></span>gadgets.io.RequestParameters=gadgets.util.makeEnum(["METHOD","CONTENT_TYPE","POST_DATA","HEADERS","AUTHORIZATION","NUM_ENTRIES","GET_SUMMARIES","GET_FULL_HEADERS","REFRESH_INTERVAL","OAUTH_SERVICE_NAME","OAUTH_USE_TOKEN","OAUTH_TOKEN_NAME","OAUTH_REQUEST_TOKEN","OAUTH_REQUEST_TOKEN_SECRET","OAUTH_RECEIVED_CALLBACK"]);
+<span id="line557"></span>gadgets.io.MethodType=gadgets.util.makeEnum(["GET","POST","PUT","DELETE","HEAD"]);
+<span id="line558"></span>gadgets.io.ContentType=gadgets.util.makeEnum(["TEXT","DOM","JSON","FEED"]);
+<span id="line559"></span>gadgets.io.AuthorizationType=gadgets.util.makeEnum(["NONE","SIGNED","OAUTH"]);;
+<span id="line560"></span>tamings___.push(function(a){caja___.whitelistFuncs([[gadgets.io,"encodeValues"],[gadgets.io,"getProxyUrl"],[gadgets.io,"makeRequest"]])
+<span id="line561"></span>});;
+<span id="line562"></span>(function(){var i=null;
+<span id="line563"></span>var j={};
+<span id="line564"></span>var f=gadgets.util.escapeString;
+<span id="line565"></span>var d={};
+<span id="line566"></span>var h={};
+<span id="line567"></span>var e="en";
+<span id="line568"></span>var b="US";
+<span id="line569"></span>var a=0;
+<span id="line570"></span>function c(){var l=gadgets.util.getUrlParameters();
+<span id="line571"></span>for(var k in l){if(l.hasOwnProperty(k)){if(k.indexOf("up_")===0&amp;&amp;k.length&gt;3){j[k.substr(3)]=String(l[k])
+<span id="line572"></span>}else{if(k==="country"){b=l[k]
+<span id="line573"></span>}else{if(k==="lang"){e=l[k]
+<span id="line574"></span>}else{if(k==="mid"){a=l[k]
+<span id="line575"></span>}}}}}}}function g(){for(var k in h){if(typeof j[k]==="undefined"){j[k]=h[k]
+<span id="line576"></span>}}}gadgets.Prefs=function(){if(!i){c();
+<span id="line577"></span>g();
+<span id="line578"></span>i=this
+<span id="line579"></span>}return i
+<span id="line580"></span>};
+<span id="line581"></span>gadgets.Prefs.setInternal_=function(n,p){var o=false;
+<span id="line582"></span>if(typeof n==="string"){if(!j.hasOwnProperty(n)||j[n]!==p){o=true
+<span id="line583"></span>}j[n]=p
+<span id="line584"></span>}else{for(var m in n){if(n.hasOwnProperty(m)){var l=n[m];
+<span id="line585"></span>if(!j.hasOwnProperty(m)||j[m]!==l){o=true
+<span id="line586"></span>}j[m]=l
+<span id="line587"></span>}}}return o
+<span id="line588"></span>};
+<span id="line589"></span>gadgets.Prefs.setMessages_=function(k){d=k
+<span id="line590"></span>};
+<span id="line591"></span>gadgets.Prefs.setDefaultPrefs_=function(k){h=k
+<span id="line592"></span>};
+<span id="line593"></span>gadgets.Prefs.prototype.getString=function(k){if(k===".lang"){k="lang"
+<span id="line594"></span>}return j[k]?f(j[k]):""
+<span id="line595"></span>};
+<span id="line596"></span>gadgets.Prefs.prototype.setDontEscape_=function(){f=function(l){return l
+<span id="line597"></span>}
+<span id="line598"></span>};
+<span id="line599"></span>gadgets.Prefs.prototype.getInt=function(k){var l=parseInt(j[k],10);
+<span id="line600"></span>return isNaN(l)?0:l
+<span id="line601"></span>};
+<span id="line602"></span>gadgets.Prefs.prototype.getFloat=function(k){var l=parseFloat(j[k]);
+<span id="line603"></span>return isNaN(l)?0:l
+<span id="line604"></span>};
+<span id="line605"></span>gadgets.Prefs.prototype.getBool=function(k){var l=j[k];
+<span id="line606"></span>if(l){return l==="true"||l===true||!!parseInt(l,10)
+<span id="line607"></span>}return false
+<span id="line608"></span>};
+<span id="line609"></span>gadgets.Prefs.prototype.set=function(k,l){throw new Error("setprefs feature required to make this call.")
+<span id="line610"></span>};
+<span id="line611"></span>gadgets.Prefs.prototype.getArray=function(n){var o=j[n];
+<span id="line612"></span>if(o){var k=o.split("|");
+<span id="line613"></span>for(var m=0,l=k.length;
+<span id="line614"></span>m</span><span>&lt;l</span><span>;
+<span id="line615"></span>++m){k[m]=f(k[m].replace(/%7C/g,"|"))
+<span id="line616"></span>}return k
+<span id="line617"></span>}return[]
+<span id="line618"></span>};
+<span id="line619"></span>gadgets.Prefs.prototype.setArray=function(k,l){throw new Error("setprefs feature required to make this call.")
+<span id="line620"></span>};
+<span id="line621"></span>gadgets.Prefs.prototype.getMsg=function(k){return d[k]||""
+<span id="line622"></span>};
+<span id="line623"></span>gadgets.Prefs.prototype.getCountry=function(){return b
+<span id="line624"></span>};
+<span id="line625"></span>gadgets.Prefs.prototype.getLang=function(){return e
+<span id="line626"></span>};
+<span id="line627"></span>gadgets.Prefs.prototype.getModuleId=function(){return a
+<span id="line628"></span>}
+<span id="line629"></span>})();;
+<span id="line630"></span>tamings___.push(function(a){caja___.whitelistCtors([[gadgets,"Prefs",Object]]);
+<span id="line631"></span>caja___.whitelistMeths([[gadgets.Prefs,"getArray"],[gadgets.Prefs,"getBool"],[gadgets.Prefs,"getCountry"],[gadgets.Prefs,"getFloat"],[gadgets.Prefs,"getInt"],[gadgets.Prefs,"getLang"],[gadgets.Prefs,"getMsg"],[gadgets.Prefs,"getString"],[gadgets.Prefs,"set"],[gadgets.Prefs,"setArray"]])
+<span id="line632"></span>});;
+<span id="line633"></span>var JSON=window.JSON||gadgets.json;
+<span id="line634"></span>var _IG_Prefs=(function(){var a=null;
+<span id="line635"></span>var b=function(){if(!a){a=new gadgets.Prefs();
+<span id="line636"></span>a.setDontEscape_()
+<span id="line637"></span>}return a
+<span id="line638"></span>};
+<span id="line639"></span>b._parseURL=gadgets.Prefs.parseUrl;
+<span id="line640"></span>return b
+<span id="line641"></span>})();
+<span id="line642"></span>function _IG_Fetch_wrapper(b,a){b(a.data?a.data:"")
+<span id="line643"></span>}function _IG_FetchContent(b,g,c){var f=c||{};
+<span id="line644"></span>if(f.refreshInterval){f.REFRESH_INTERVAL=f.refreshInterval
+<span id="line645"></span>}else{f.REFRESH_INTERVAL=3600
+<span id="line646"></span>}for(var e in f){var d=f[e];
+<span id="line647"></span>delete f[e];
+<span id="line648"></span>f[e.toUpperCase()]=d
+<span id="line649"></span>}var a=gadgets.util.makeClosure(null,_IG_Fetch_wrapper,g);
+<span id="line650"></span>gadgets.io.makeRequest(b,a,f)
+<span id="line651"></span>}function _IG_FetchXmlContent(b,e,c){var d=c||{};
+<span id="line652"></span>if(d.refreshInterval){d.REFRESH_INTERVAL=d.refreshInterval
+<span id="line653"></span>}else{d.REFRESH_INTERVAL=3600
+<span id="line654"></span>}d.CONTENT_TYPE="DOM";
+<span id="line655"></span>var a=gadgets.util.makeClosure(null,_IG_Fetch_wrapper,e);
+<span id="line656"></span>gadgets.io.makeRequest(b,a,d)
+<span id="line657"></span>}function _IG_FetchFeedAsJSON(b,f,c,a,d){var e=d||{};
+<span id="line658"></span>e.CONTENT_TYPE="FEED";
+<span id="line659"></span>e.NUM_ENTRIES=c;
+<span id="line660"></span>e.GET_SUMMARIES=a;
+<span id="line661"></span>gadgets.io.makeRequest(b,function(j){j.data=j.data||{};
+<span id="line662"></span>if(j.errors&amp;&amp;j.errors.length&gt;0){j.data.ErrorMsg=j.errors[0]
+<span id="line663"></span>}if(j.data.link){j.data.URL=b
+<span id="line664"></span>}if(j.data.title){j.data.Title=j.data.title
+<span id="line665"></span>}if(j.data.description){j.data.Description=j.data.description
+<span id="line666"></span>}if(j.data.link){j.data.Link=j.data.link
+<span id="line667"></span>}if(j.data.items&amp;&amp;j.data.items.length&gt;0){j.data.Entry=j.data.items;
+<span id="line668"></span>for(var h=0;
+<span id="line669"></span>h</span><span>&lt;j</span><span>.data.Entry.length;
+<span id="line670"></span>++h){var i=j.data.Entry[h];
+<span id="line671"></span>i.Title=i.title;
+<span id="line672"></span>i.Link=i.link;
+<span id="line673"></span>i.Summary=i.summary||i.description;
+<span id="line674"></span>i.Date=i.pubDate
+<span id="line675"></span>}}for(var g=0;
+<span id="line676"></span>g</span><span>&lt;j</span><span>.data.Entry.length;
+<span id="line677"></span>++g){var i=j.data.Entry[g];
+<span id="line678"></span>i.Date=(i.Date/1000)
+<span id="line679"></span>}f(j.data)
+<span id="line680"></span>},e)
+<span id="line681"></span>}function _IG_GetCachedUrl(a,b){var c=b||{};
+<span id="line682"></span>c.REFRESH_INTERVAL=3600;
+<span id="line683"></span>if(c.refreshInterval){c.REFRESH_INTERVAL=c.refreshInterval
+<span id="line684"></span>}return gadgets.io.getProxyUrl(a,c)
+<span id="line685"></span>}function _IG_GetImageUrl(a,b){return _IG_GetCachedUrl(a,b)
+<span id="line686"></span>}function _IG_GetImage(b){var a=document.createElement("img");
+<span id="line687"></span>a.src=_IG_GetCachedUrl(b);
+<span id="line688"></span>return a
+<span id="line689"></span>}function _IG_RegisterOnloadHandler(a){gadgets.util.registerOnLoadHandler(a)
+<span id="line690"></span>}function _IG_Callback(b,c){var a=arguments;
+<span id="line691"></span>return function(){var d=Array.prototype.slice.call(arguments);
+<span id="line692"></span>b.apply(null,d.concat(Array.prototype.slice.call(a,1)))
+<span id="line693"></span>}
+<span id="line694"></span>}var _args=gadgets.util.getUrlParameters;
+<span id="line695"></span>function _gel(a){return document.getElementById?document.getElementById(a):null
+<span id="line696"></span>}function _gelstn(a){if(a==="*"&amp;&amp;document.all){return document.all
+<span id="line697"></span>}return document.getElementsByTagName?document.getElementsByTagName(a):[]
+<span id="line698"></span>}function _gelsbyregex(d,f){var c=_gelstn(d);
+<span id="line699"></span>var e=[];
+<span id="line700"></span>for(var b=0,a=c.length;
+<span id="line701"></span>b</span><span>&lt;a</span><span>;
+<span id="line702"></span>++b){if(f.test(c[b].id)){e.push(c[b])
+<span id="line703"></span>}}return e
+<span id="line704"></span>}function _esc(a){return window.encodeURIComponent?encodeURIComponent(a):escape(a)
+<span id="line705"></span>}function _unesc(a){return window.decodeURIComponent?decodeURIComponent(a):unescape(a)
+<span id="line706"></span>}function _hesc(a){return gadgets.util.escapeString(a)
+<span id="line707"></span>}function _striptags(a){return a.replace(/</span><span>&lt;\</span><span>/?[^&gt;]+&gt;/g,"")
+<span id="line708"></span>}function _trim(a){return a.replace(/^\s+|\s+$/g,"")
+<span id="line709"></span>}function _toggle(a){a=(typeof a==="string")?_gel(a):a;
+<span id="line710"></span>if(a!==null){if(a.style.display.length===0||a.style.display==="block"){a.style.display="none"
+<span id="line711"></span>}else{if(a.style.display==="none"){a.style.display="block"
+<span id="line712"></span>}}}}var _uid=(function(){var a=0;
+<span id="line713"></span>return function(){return a++
+<span id="line714"></span>}
+<span id="line715"></span>})();
+<span id="line716"></span>function _min(d,c){return(d</span><span>&lt;c</span><span>?d:c)
+<span id="line717"></span>}function _max(d,c){return(d&gt;c?d:c)
+<span id="line718"></span>}function _exportSymbols(a,c){var m=window;
+<span id="line719"></span>var f=a.split(".");
+<span id="line720"></span>for(var h=0,g=f.length;
+<span id="line721"></span>h</span><span>&lt;g</span><span>;
+<span id="line722"></span>h++){var b=f[h];
+<span id="line723"></span>m[b]=m[b]||{};
+<span id="line724"></span>m=m[b]
+<span id="line725"></span>}for(var e=0,d=c.length;
+<span id="line726"></span>e</span><span>&lt;d</span><span>;
+<span id="line727"></span>e+=2){m[c[e]]=c[e+1]
+<span id="line728"></span>}}function _IG_AddDOMEventHandler(c,b,a){gadgets.warn("_IG_AddDOMEventHandler not implemented - see SHINDIG-198")
+<span id="line729"></span>};;
+<span id="line730"></span>(function(){function f(b,c,a){b={msg:b||"",line:a||0,jsUrl:0==window.location.href.indexOf(c)?"-top-":c,fullUrl:window.location};try{if(++window._varz_numerrors,gadgets&amp;&amp;!(3</span><span>&lt;e</span><span>)){c={};c[gadgets.io.RequestParameters.METHOD]=gadgets.io.MethodType.GET;a=encodeURIComponent||escape;var d=gadgets.util.getUrlParameters(),g=d.container||d.synd,h=d.gadget||d.url,l=["/gadgets/evthdlr?t=err&amp;gadget=",a(h),"&amp;container=",a(g),"&amp;jsurl=",a(b.jsUrl),"&amp;line=",a(b.line),"&amp;session=",k,"&amp;count=",e,"&amp;msg=",a(b.msg)];gadgets.io.makeNonProxiedRequest(l.join(""),
+<span id="line731"></span>null,c);e++}}catch(m){}}window._varz_numerrors=0;var k=(new Date).getTime(),e=0;-1==window.location.href.indexOf("&amp;debug=1")&amp;&amp;-1==window.location.href.indexOf("?debug=1")&amp;&amp;(window.onerror=f)})();
+<span id="line732"></span>;
+<span id="line733"></span>(function(){var l=null,q=function(){function e(a){a=(""+a).match(w);return!a?l:new b(p(a[1]),p(a[2]),p(a[3]),p(a[4]),p(a[5]),p(a[6]),p(a[7]))}function x(a,e){return"string"==typeof a?encodeURI(a).replace(e,y):l}function y(a){a=a.charCodeAt(0);return"%"+"0123456789ABCDEF".charAt(a&gt;&gt;4&amp;15)+"0123456789ABCDEF".charAt(a&amp;15)}function u(a){if(a===l)return l;for(var a=a.replace(/(^|\/)\.(?:\/|$)/g,"$1").replace(/\/{2,}/g,"/"),e=z,m;(m=a.replace(e,"$1"))!=a;a=m);return a}function v(a,e){var m=a.R(),b=e.K();b?m.fa(e.j):
+<span id="line734"></span>b=e.V();b?m.ca(e.n):b=e.W();b?m.da(e.k):b=e.Y();var s=e.g,g=u(s);if(b)m.ba(e.T()),g=g&amp;&amp;g.replace(j,"");else if(b=!!s){if(47!==g.charCodeAt(0))var g=u(m.g||"").replace(j,""),p=g.lastIndexOf("/")+1,g=u((p?g.substring(0,p):"")+u(s)).replace(j,"")}else g=g&amp;&amp;g.replace(j,""),g!==s&amp;&amp;m.G(g);b?m.G(g):b=e.Z();b?m.M(e.l):b=e.X();b&amp;&amp;m.ea(e.o);return m}function b(a,e,b,j,s,g,p){this.j=a;this.n=e;this.k=b;this.h=j;this.g=s;this.l=g;this.o=p}function p(a){return"string"==typeof a&amp;&amp;0</span><span>&lt;a</span><span>.length?a:l}var z=RegExp(/(\/|^)(?:[^./][^/]*|\.{2,}(?:[^./][^/]*)|\.{3,}[^/]*)\/\.\.(?:\/|$)/),
+<span id="line735"></span>j=/^(?:\.\.\/)*(?:\.\.$)?/;b.prototype.toString=function(){var a=[];l!==this.j&amp;&amp;a.push(this.j,":");l!==this.k&amp;&amp;(a.push("//"),l!==this.n&amp;&amp;a.push(this.n,"@"),a.push(this.k),l!==this.h&amp;&amp;a.push(":",this.h.toString()));l!==this.g&amp;&amp;a.push(this.g);l!==this.l&amp;&amp;a.push("?",this.l);l!==this.o&amp;&amp;a.push("#",this.o);return a.join("")};b.prototype.R=function(){return new b(this.j,this.n,this.k,this.h,this.g,this.l,this.o)};b.prototype.U=function(){return this.j&amp;&amp;decodeURIComponent(this.j).toLowerCase()};b.prototype.fa=
+<span id="line736"></span>function(a){this.j=a?a:l};b.prototype.K=function(){return l!==this.j};b.prototype.ca=function(a){this.n=a?a:l};b.prototype.V=function(){return l!==this.n};b.prototype.da=function(a){this.k=a?a:l;this.G(this.g)};b.prototype.W=function(){return l!==this.k};b.prototype.T=function(){return this.h&amp;&amp;decodeURIComponent(this.h)};b.prototype.ba=function(a){if(a){a=Number(a);if(a!==(a&amp;65535))throw Error("Bad port number "+a);this.h=""+a}else this.h=l};b.prototype.Y=function(){return l!==this.h};b.prototype.S=
+<span id="line737"></span>function(){return this.g&amp;&amp;decodeURIComponent(this.g)};b.prototype.G=function(a){a?(a=""+a,this.g=!this.k||/^\//.test(a)?a:"/"+a):this.g=l};b.prototype.M=function(a){this.l=a?a:l};b.prototype.Z=function(){return l!==this.l};b.prototype.aa=function(a){if("object"===typeof a&amp;&amp;!(a instanceof Array)&amp;&amp;(a instanceof Object||"[object Array]"!==Object.prototype.toString.call(a))){var e=[],b=-1,j;for(j in a){var s=a[j];"string"===typeof s&amp;&amp;(e[++b]=j,e[++b]=s)}a=e}for(var e=[],b="",g=0;g</span><span>&lt;a</span><span>.length;)j=a[g++],
+<span id="line738"></span>s=a[g++],e.push(b,encodeURIComponent(j.toString())),b="&amp;",s&amp;&amp;e.push("=",encodeURIComponent(s.toString()));this.l=e.join("")};b.prototype.ea=function(a){this.o=a?a:l};b.prototype.X=function(){return l!==this.o};var w=/^(?:([^:/?#]+):)?(?:\/\/(?:([^/?#]*)@)?([^/?#:@]*)(?::([0-9]+))?)?([^?#]+)?(?:\?([^#]*))?(?:#(.*))?$/,B=/[#\/\?@]/g,C=/[\#\?]/g;b.parse=e;b.create=function(a,e,j,p,s,g,u){a=new b(x(a,B),x(e,B),"string"==typeof j?encodeURIComponent(j):l,0</span><span>&lt;p</span><span>?p.toString():l,x(s,C),l,"string"==typeof u?encodeURIComponent(u):
+<span id="line739"></span>l);g&amp;&amp;("string"===typeof g?a.M(g.replace(/[^?&amp;=0-9A-Za-z_\-~.%]/g,y)):a.aa(g));return a};b.$=v;b.ja=u;b.va={pa:function(a){return/\.html$/.test(e(a).S())?"text/html":"application/javascript"},$:function(a,b){return a?v(e(a),e(b)).toString():""+b}};return b}();"undefined"!==typeof window&amp;&amp;(window.URI=q);var M={f:{NONE:0,URI:1,URI_FRAGMENT:11,SCRIPT:2,STYLE:3,HTML:12,ID:4,IDREF:5,IDREFS:6,GLOBAL_NAME:7,LOCAL_NAME:8,CLASSES:9,FRAME_TARGET:10,MEDIA_QUERY:13}};M.atype=M.f;
+<span id="line740"></span>M.w={"*::class":9,"*::dir":0,"*::draggable":0,"*::hidden":0,"*::id":4,"*::inert":0,"*::itemprop":0,"*::itemref":6,"*::itemscope":0,"*::lang":0,"*::onblur":2,"*::onchange":2,"*::onclick":2,"*::ondblclick":2,"*::onerror":2,"*::onfocus":2,"*::onkeydown":2,"*::onkeypress":2,"*::onkeyup":2,"*::onload":2,"*::onmousedown":2,"*::onmousemove":2,"*::onmouseout":2,"*::onmouseover":2,"*::onmouseup":2,"*::onreset":2,"*::onscroll":2,"*::onselect":2,"*::onsubmit":2,"*::ontouchcancel":2,"*::ontouchend":2,"*::ontouchenter":2,
+<span id="line741"></span>"*::ontouchleave":2,"*::ontouchmove":2,"*::ontouchstart":2,"*::onunload":2,"*::spellcheck":0,"*::style":3,"*::tabindex":0,"*::title":0,"*::translate":0,"a::accesskey":0,"a::coords":0,"a::href":1,"a::hreflang":0,"a::name":7,"a::onblur":2,"a::onfocus":2,"a::shape":0,"a::target":10,"a::type":0,"area::accesskey":0,"area::alt":0,"area::coords":0,"area::href":1,"area::nohref":0,"area::onblur":2,"area::onfocus":2,"area::shape":0,"area::target":10,"audio::controls":0,"audio::loop":0,"audio::mediagroup":5,
+<span id="line742"></span>"audio::muted":0,"audio::preload":0,"audio::src":1,"bdo::dir":0,"blockquote::cite":1,"br::clear":0,"button::accesskey":0,"button::disabled":0,"button::name":8,"button::onblur":2,"button::onfocus":2,"button::type":0,"button::value":0,"canvas::height":0,"canvas::width":0,"caption::align":0,"col::align":0,"col::char":0,"col::charoff":0,"col::span":0,"col::valign":0,"col::width":0,"colgroup::align":0,"colgroup::char":0,"colgroup::charoff":0,"colgroup::span":0,"colgroup::valign":0,"colgroup::width":0,
+<span id="line743"></span>"command::checked":0,"command::command":5,"command::disabled":0,"command::icon":1,"command::label":0,"command::radiogroup":0,"command::type":0,"data::value":0,"del::cite":1,"del::datetime":0,"details::open":0,"dir::compact":0,"div::align":0,"dl::compact":0,"fieldset::disabled":0,"font::color":0,"font::face":0,"font::size":0,"form::accept":0,"form::action":1,"form::autocomplete":0,"form::enctype":0,"form::method":0,"form::name":7,"form::novalidate":0,"form::onreset":2,"form::onsubmit":2,"form::target":10,
+<span id="line744"></span>"h1::align":0,"h2::align":0,"h3::align":0,"h4::align":0,"h5::align":0,"h6::align":0,"hr::align":0,"hr::noshade":0,"hr::size":0,"hr::width":0,"iframe::align":0,"iframe::frameborder":0,"iframe::height":0,"iframe::marginheight":0,"iframe::marginwidth":0,"iframe::width":0,"img::align":0,"img::alt":0,"img::border":0,"img::height":0,"img::hspace":0,"img::ismap":0,"img::name":7,"img::src":1,"img::usemap":11,"img::vspace":0,"img::width":0,"input::accept":0,"input::accesskey":0,"input::align":0,"input::alt":0,
+<span id="line745"></span>"input::autocomplete":0,"input::checked":0,"input::disabled":0,"input::inputmode":0,"input::ismap":0,"input::list":5,"input::max":0,"input::maxlength":0,"input::min":0,"input::multiple":0,"input::name":8,"input::onblur":2,"input::onchange":2,"input::onfocus":2,"input::onselect":2,"input::pattern":0,"input::placeholder":0,"input::readonly":0,"input::required":0,"input::size":0,"input::src":1,"input::step":0,"input::type":0,"input::usemap":11,"input::value":0,"ins::cite":1,"ins::datetime":0,"label::accesskey":0,
+<span id="line746"></span>"label::for":5,"label::onblur":2,"label::onfocus":2,"legend::accesskey":0,"legend::align":0,"li::type":0,"li::value":0,"map::name":7,"menu::compact":0,"menu::label":0,"menu::type":0,"meter::high":0,"meter::low":0,"meter::max":0,"meter::min":0,"meter::optimum":0,"meter::value":0,"ol::compact":0,"ol::reversed":0,"ol::start":0,"ol::type":0,"optgroup::disabled":0,"optgroup::label":0,"option::disabled":0,"option::label":0,"option::selected":0,"option::value":0,"output::for":6,"output::name":8,"p::align":0,
+<span id="line747"></span>"pre::width":0,"progress::max":0,"progress::min":0,"progress::value":0,"q::cite":1,"select::autocomplete":0,"select::disabled":0,"select::multiple":0,"select::name":8,"select::onblur":2,"select::onchange":2,"select::onfocus":2,"select::required":0,"select::size":0,"source::type":0,"table::align":0,"table::bgcolor":0,"table::border":0,"table::cellpadding":0,"table::cellspacing":0,"table::frame":0,"table::rules":0,"table::summary":0,"table::width":0,"tbody::align":0,"tbody::char":0,"tbody::charoff":0,
+<span id="line748"></span>"tbody::valign":0,"td::abbr":0,"td::align":0,"td::axis":0,"td::bgcolor":0,"td::char":0,"td::charoff":0,"td::colspan":0,"td::headers":6,"td::height":0,"td::nowrap":0,"td::rowspan":0,"td::scope":0,"td::valign":0,"td::width":0,"textarea::accesskey":0,"textarea::autocomplete":0,"textarea::cols":0,"textarea::disabled":0,"textarea::inputmode":0,"textarea::name":8,"textarea::onblur":2,"textarea::onchange":2,"textarea::onfocus":2,"textarea::onselect":2,"textarea::placeholder":0,"textarea::readonly":0,"textarea::required":0,
+<span id="line749"></span>"textarea::rows":0,"textarea::wrap":0,"tfoot::align":0,"tfoot::char":0,"tfoot::charoff":0,"tfoot::valign":0,"th::abbr":0,"th::align":0,"th::axis":0,"th::bgcolor":0,"th::char":0,"th::charoff":0,"th::colspan":0,"th::headers":6,"th::height":0,"th::nowrap":0,"th::rowspan":0,"th::scope":0,"th::valign":0,"th::width":0,"thead::align":0,"thead::char":0,"thead::charoff":0,"thead::valign":0,"tr::align":0,"tr::bgcolor":0,"tr::char":0,"tr::charoff":0,"tr::valign":0,"track::default":0,"track::kind":0,"track::label":0,
+<span id="line750"></span>"track::srclang":0,"ul::compact":0,"ul::type":0,"video::controls":0,"video::height":0,"video::loop":0,"video::mediagroup":5,"video::muted":0,"video::poster":1,"video::preload":0,"video::src":1,"video::width":0};M.ATTRIBS=M.w;M.c={OPTIONAL_ENDTAG:1,EMPTY:2,CDATA:4,RCDATA:8,UNSAFE:16,FOLDABLE:32,SCRIPT:64,STYLE:128,VIRTUALIZED:256};M.eflags=M.c;
+<span id="line751"></span>M.e={a:0,abbr:0,acronym:0,address:0,applet:272,area:2,article:0,aside:0,audio:0,b:0,base:274,basefont:274,bdi:0,bdo:0,big:0,blockquote:0,body:305,br:2,button:0,canvas:0,caption:0,center:0,cite:0,code:0,col:2,colgroup:1,command:2,data:0,datalist:0,dd:1,del:0,details:0,dfn:0,dialog:272,dir:0,div:0,dl:0,dt:1,em:0,fieldset:0,figcaption:0,figure:0,font:0,footer:0,form:0,frame:274,frameset:272,h1:0,h2:0,h3:0,h4:0,h5:0,h6:0,head:305,header:0,hgroup:0,hr:2,html:305,i:0,iframe:4,img:2,input:2,ins:0,isindex:274,
+<span id="line752"></span>kbd:0,keygen:274,label:0,legend:0,li:1,link:274,map:0,mark:0,menu:0,meta:274,meter:0,nav:0,nobr:0,noembed:276,noframes:276,noscript:276,object:272,ol:0,optgroup:0,option:1,output:0,p:1,param:274,pre:0,progress:0,q:0,s:0,samp:0,script:84,section:0,select:0,small:0,source:2,span:0,strike:0,strong:0,style:148,sub:0,summary:0,sup:0,table:0,tbody:1,td:1,textarea:8,tfoot:1,th:1,thead:1,time:0,title:280,tr:1,track:2,tt:0,u:0,ul:0,"var":0,video:0,wbr:2};M.ELEMENTS=M.e;
+<span id="line753"></span>M.O={a:"HTMLAnchorElement",abbr:"HTMLElement",acronym:"HTMLElement",address:"HTMLElement",applet:"HTMLAppletElement",area:"HTMLAreaElement",article:"HTMLElement",aside:"HTMLElement",audio:"HTMLAudioElement",b:"HTMLElement",base:"HTMLBaseElement",basefont:"HTMLBaseFontElement",bdi:"HTMLElement",bdo:"HTMLElement",big:"HTMLElement",blockquote:"HTMLQuoteElement",body:"HTMLBodyElement",br:"HTMLBRElement",button:"HTMLButtonElement",canvas:"HTMLCanvasElement",caption:"HTMLTableCaptionElement",center:"HTMLElement",
+<span id="line754"></span>cite:"HTMLElement",code:"HTMLElement",col:"HTMLTableColElement",colgroup:"HTMLTableColElement",command:"HTMLCommandElement",data:"HTMLElement",datalist:"HTMLDataListElement",dd:"HTMLElement",del:"HTMLModElement",details:"HTMLDetailsElement",dfn:"HTMLElement",dialog:"HTMLDialogElement",dir:"HTMLDirectoryElement",div:"HTMLDivElement",dl:"HTMLDListElement",dt:"HTMLElement",em:"HTMLElement",fieldset:"HTMLFieldSetElement",figcaption:"HTMLElement",figure:"HTMLElement",font:"HTMLFontElement",footer:"HTMLElement",
+<span id="line755"></span>form:"HTMLFormElement",frame:"HTMLFrameElement",frameset:"HTMLFrameSetElement",h1:"HTMLHeadingElement",h2:"HTMLHeadingElement",h3:"HTMLHeadingElement",h4:"HTMLHeadingElement",h5:"HTMLHeadingElement",h6:"HTMLHeadingElement",head:"HTMLHeadElement",header:"HTMLElement",hgroup:"HTMLElement",hr:"HTMLHRElement",html:"HTMLHtmlElement",i:"HTMLElement",iframe:"HTMLIFrameElement",img:"HTMLImageElement",input:"HTMLInputElement",ins:"HTMLModElement",isindex:"HTMLUnknownElement",kbd:"HTMLElement",keygen:"HTMLKeygenElement",
+<span id="line756"></span>label:"HTMLLabelElement",legend:"HTMLLegendElement",li:"HTMLLIElement",link:"HTMLLinkElement",map:"HTMLMapElement",mark:"HTMLElement",menu:"HTMLMenuElement",meta:"HTMLMetaElement",meter:"HTMLMeterElement",nav:"HTMLElement",nobr:"HTMLElement",noembed:"HTMLElement",noframes:"HTMLElement",noscript:"HTMLElement",object:"HTMLObjectElement",ol:"HTMLOListElement",optgroup:"HTMLOptGroupElement",option:"HTMLOptionElement",output:"HTMLOutputElement",p:"HTMLParagraphElement",param:"HTMLParamElement",pre:"HTMLPreElement",
+<span id="line757"></span>progress:"HTMLProgressElement",q:"HTMLQuoteElement",s:"HTMLElement",samp:"HTMLElement",script:"HTMLScriptElement",section:"HTMLElement",select:"HTMLSelectElement",small:"HTMLElement",source:"HTMLSourceElement",span:"HTMLSpanElement",strike:"HTMLElement",strong:"HTMLElement",style:"HTMLStyleElement",sub:"HTMLElement",summary:"HTMLElement",sup:"HTMLElement",table:"HTMLTableElement",tbody:"HTMLTableSectionElement",td:"HTMLTableDataCellElement",textarea:"HTMLTextAreaElement",tfoot:"HTMLTableSectionElement",
+<span id="line758"></span>th:"HTMLTableHeaderCellElement",thead:"HTMLTableSectionElement",time:"HTMLTimeElement",title:"HTMLTitleElement",tr:"HTMLTableRowElement",track:"HTMLTrackElement",tt:"HTMLElement",u:"HTMLElement",ul:"HTMLUListElement","var":"HTMLElement",video:"HTMLVideoElement",wbr:"HTMLElement"};M.ELEMENT_DOM_INTERFACES=M.O;M.N={NOT_LOADED:0,SAME_DOCUMENT:1,NEW_DOCUMENT:2};M.ueffects=M.N;
+<span id="line759"></span>M.J={"a::href":2,"area::href":2,"audio::src":1,"blockquote::cite":0,"command::icon":1,"del::cite":0,"form::action":2,"img::src":1,"input::src":1,"ins::cite":0,"q::cite":0,"video::poster":1,"video::src":1};M.URIEFFECTS=M.J;M.L={UNSANDBOXED:2,SANDBOXED:1,DATA:0};M.ltypes=M.L;M.I={"a::href":2,"area::href":2,"audio::src":2,"blockquote::cite":2,"command::icon":1,"del::cite":2,"form::action":2,"img::src":1,"input::src":1,"ins::cite":2,"q::cite":2,"video::poster":1,"video::src":2};M.LOADERTYPES=M.I;
+<span id="line760"></span>"undefined"!==typeof window&amp;&amp;(window.html4=M);var Q=function(e){function x(d){if(D.hasOwnProperty(d))return D[d];var a=d.match(R);return a?String.fromCharCode(parseInt(a[1],10)):(a=d.match(S))?String.fromCharCode(parseInt(a[1],16)):E&amp;&amp;T.test(d)?(E.innerHTML="&amp;"+d+";",a=E.textContent,D[d]=a):"&amp;"+d+";"}function y(d,a){return x(a)}function u(d){return d.replace(U,y)}function v(d){return(""+d).replace(N,"&amp;amp;").replace(F,"&amp;lt;").replace(G,"&amp;gt;").replace(V,"&amp;#34;")}function b(d){return(""+d).replace(N,"&amp;amp;").replace(F,"&amp;lt;").replace(G,"&amp;gt;")}
+<span id="line761"></span>function p(d){return d.replace(W,"&amp;amp;$1").replace(F,"&amp;lt;").replace(G,"&amp;gt;")}function z(d){var a={z:d.z||d.cdata,A:d.A||d.comment,B:d.B||d.endDoc,t:d.t||d.endTag,d:d.d||d.pcdata,F:d.F||d.rcdata,H:d.H||d.startDoc,v:d.v||d.startTag};return function(d,e){var f;var r=/(</span><span>&lt;\</span><span>/|</span><span>&lt;\</span><span>!--|</span><span>&lt;[</span><span>!?]|[&amp;</span><span>&lt;&gt;</span><span>])/g;f=d+"";if(X)f=f.split(r);else{for(var k=[],i=0,b;(b=r.exec(f))!==l;)k.push(f.substring(i,b.index)),k.push(b[0]),i=b.index+b[0].length;k.push(f.substring(i));f=k}w(a,f,0,{r:!1,C:!1},e)}}function j(d,a,c,e,f){return function(){w(d,
+<span id="line762"></span>a,c,e,f)}}function w(d,a,c,h,f){try{d.H&amp;&amp;0==c&amp;&amp;d.H(f);for(var r,k,i,b=a.length;c</span><span>&lt;b</span><span>;){var n=a[c++],g=a[c];switch(n){case "&amp;":Y.test(g)?(d.d&amp;&amp;d.d("&amp;"+g,f,t,j(d,a,c,h,f)),c++):d.d&amp;&amp;d.d("&amp;amp;",f,t,j(d,a,c,h,f));break;case "</span><span>&lt;/<span></span>"</span><span>:if(r=/^([-\w:]+)[^\'\"]*/.exec(g))if(r[0].length===g.length&amp;&amp;"&gt;"===a[c+1])c+=2,i=r[1].toLowerCase(),d.t&amp;&amp;d.t(i,f,t,j(d,a,c,h,f));else{var m=a,o=c,p=d,s=f,u=t,x=h,v=C(m,o);v?(p.t&amp;&amp;p.t(v.name,s,u,j(p,m,o,x,s)),c=v.next):c=m.length}else d.d&amp;&amp;d.d("&amp;lt;/",f,t,j(d,a,c,h,f));break;case "</span><span>&lt;"</span><span>:if(r=
+<span id="line763"></span>/^([-\w:]+)\s*\/?/.exec(g))if(r[0].length===g.length&amp;&amp;"&gt;"===a[c+1]){c+=2;i=r[1].toLowerCase();d.v&amp;&amp;d.v(i,[],f,t,j(d,a,c,h,f));var w=e.e[i];w&amp;O&amp;&amp;(c=B(a,{name:i,next:c,c:w},d,f,t,h))}else{var m=a,o=d,p=f,s=t,u=h,A=C(m,c);A?(o.v&amp;&amp;o.v(A.name,A.P,p,s,j(o,m,A.next,u,p)),c=A.c&amp;O?B(m,A,o,p,s,u):A.next):c=m.length}else d.d&amp;&amp;d.d("&amp;lt;",f,t,j(d,a,c,h,f));break;case "</span><span>&lt;\</span><span>!--":if(!h.C){for(k=c+1;k</span><span>&lt;b</span><span>&amp;&amp;!("&gt;"===a[k]&amp;&amp;/--$/.test(a[k-1]));k++);if(k</span><span>&lt;b</span><span>){if(d.A){var y=a.slice(c,k).join("");d.A(y.substr(0,y.length-2),f,
+<span id="line764"></span>t,j(d,a,k+1,h,f))}c=k+1}else h.C=!0}h.C&amp;&amp;d.d&amp;&amp;d.d("&amp;lt;!--",f,t,j(d,a,c,h,f));break;case "</span><span>&lt;!</span><span>":if(/^\w/.test(g)){if(!h.r){for(k=c+1;k</span><span>&lt;b</span><span>&amp;&amp;"&gt;"!==a[k];k++);k</span><span>&lt;b</span><span>?c=k+1:h.r=!0}h.r&amp;&amp;d.d&amp;&amp;d.d("&amp;lt;!",f,t,j(d,a,c,h,f))}else d.d&amp;&amp;d.d("&amp;lt;!",f,t,j(d,a,c,h,f));break;case "</span><span>&lt;?</span><span>":if(!h.r){for(k=c+1;k</span><span>&lt;b</span><span>&amp;&amp;"&gt;"!==a[k];k++);k</span><span>&lt;b</span><span>?c=k+1:h.r=!0}h.r&amp;&amp;d.d&amp;&amp;d.d("&amp;lt;?",f,t,j(d,a,c,h,f));break;case "&gt;":d.d&amp;&amp;d.d("&amp;gt;",f,t,j(d,a,c,h,f));break;case "":break;default:d.d&amp;&amp;d.d(n,f,t,j(d,a,c,h,f))}}d.B&amp;&amp;d.B(f)}catch(z){if(z!==t)throw z;
+<span id="line765"></span>}}function B(a,b,c,h,f,r){var k=a.length;H.hasOwnProperty(b.name)||(H[b.name]=RegExp("^"+b.name+"(?:[\\s\\/]|$)","i"));for(var i=H[b.name],g=b.next,n=b.next+1;n</span><span>&lt;k</span><span>&amp;&amp;!("</span><span>&lt;/<span></span>"</span><span>===a[n-1]&amp;&amp;i.test(a[n]));n++);n</span><span>&lt;k</span><span>&amp;&amp;(n-=1);k=a.slice(g,n).join("");if(b.c&amp;e.c.CDATA)c.z&amp;&amp;c.z(k,h,f,j(c,a,n,r,h));else if(b.c&amp;e.c.RCDATA)c.F&amp;&amp;c.F(p(k),h,f,j(c,a,n,r,h));else throw Error("bug");return n}function C(a,b){var c=/^([-\w:]+)/.exec(a[b]),h={};h.name=c[1].toLowerCase();h.c=e.e[h.name];for(var f=a[b].substr(c[0].length),r=b+
+<span id="line766"></span>1,k=a.length;r</span><span>&lt;k</span><span>&amp;&amp;"&gt;"!==a[r];r++)f+=a[r];if(!(k</span><span>&lt;=</span><span>r)){for(var i=[];""!==f;)if(c=Z.exec(f))if(c[4]&amp;&amp;!c[5]||c[6]&amp;&amp;!c[7]){for(var c=c[4]||c[6],g=!1,f=[f,a[r++]];r</span><span>&lt;k</span><span>;r++){if(g){if("&gt;"===a[r])break}else 0</span><span>&lt;=</span><span>a[r].indexOf(c)&amp;&amp;(g=!0);f.push(a[r])}if(k</span><span>&lt;=</span><span>r)break;f=f.join("")}else{var g=c[1].toLowerCase(),n;if(c[2]){n=c[3];var j=n.charCodeAt(0);if(34===j||39===j)n=n.substr(1,n.length-2);n=u(n.replace($,""))}else n="";i.push(g,n);f=f.substr(c[0].length)}else f=f.replace(/^[\s\S][^a-z\s]*/,"");h.P=i;h.next=r+1;
+<span id="line767"></span>return h}}function a(a){function g(){var a=h[h.length-1];return a?e.e[a.m]:0}function c(a){var d=h[h.length-1];if(!d)throw Error("shouldn't happen: CDATA/RCDATA context without any start tag");return a.replace(RegExp("</span><span>&lt;/<span></span>"</span><span>+d.m+"(?=[^A-Za-z])&gt;?","i"),"</span><span>&lt;/<span></span>&gt;</span><span>")}var h,f;return z({startDoc:function(){h=[];f=!1},startTag:function(c,b,i){if(!f&amp;&amp;e.e.hasOwnProperty(c)){var g=e.e[c];if(!(g&amp;e.c.FOLDABLE)){var n=a(c,b);if(n){if("object"!==typeof n)throw Error("tagPolicy did not return object (old API?)");if("attribs"in
+<span id="line768"></span>n)b=n.attribs;else throw Error("tagPolicy gave no attribs");var j;"tagName"in n?(j=n.tagName,n=e.e[j]):(j=c,n=g);if(g&amp;e.c.OPTIONAL_ENDTAG){var m=h[h.length-1];m&amp;&amp;m.D===c&amp;&amp;(m.m!==j||c!==j)&amp;&amp;i.push("</span><span>&lt;/<span></span>"</span><span>,m.m,"&gt;")}g&amp;e.c.EMPTY||h.push({D:c,m:j});i.push("</span><span>&lt;"</span><span>,j);c=0;for(m=b.length;c</span><span>&lt;m</span><span>;c+=2){var o=b[c],p=b[c+1];p!==l&amp;&amp;void 0!==p&amp;&amp;i.push(" ",o,'="',v(p),'"')}i.push("&gt;");g&amp;e.c.EMPTY&amp;&amp;!(n&amp;e.c.EMPTY)&amp;&amp;i.push("</span><span>&lt;/<span></span>"</span><span>,j,"&gt;")}else f=!(g&amp;e.c.EMPTY)}}},endTag:function(a,d){if(f)f=!1;else if(e.e.hasOwnProperty(a)){var c=
+<span id="line769"></span>e.e[a];if(!(c&amp;(e.c.EMPTY|e.c.FOLDABLE))){if(c&amp;e.c.OPTIONAL_ENDTAG)for(c=h.length;0</span><span>&lt;=</span><span>--c;){var b=h[c].D;if(b===a)break;if(!(e.e[b]&amp;e.c.OPTIONAL_ENDTAG))return}else for(c=h.length;0</span><span>&lt;=</span><span>--c&amp;&amp;h[c].D!==a;);if(!(0&gt;c)){for(b=h.length;--b&gt;c;){var g=h[b].m;e.e[g]&amp;e.c.OPTIONAL_ENDTAG||d.push("</span><span>&lt;/<span></span>"</span><span>,g,"&gt;")}c</span><span>&lt;h</span><span>.length&amp;&amp;(a=h[c].m);h.length=c;d.push("</span><span>&lt;/<span></span>"</span><span>,a,"&gt;")}}}},pcdata:function(a,d){f||(g()&amp;(e.c.RCDATA|e.c.CDATA)?d.push(c(a)):d.push(a))},rcdata:function(a,d){f||(g()&amp;(e.c.RCDATA|e.c.CDATA)?d.push(c(a)):d.push(a))},
+<span id="line770"></span>cdata:function(a,d){f||(g()&amp;e.c.CDATA?d.push(c(a)):d.push(b(a)))},endDoc:function(a){for(;h.length;h.length--)a.push("</span><span>&lt;/<span></span>"</span><span>,h[h.length-1].m,"&gt;")}})}function J(a,b,c,e,f){if(!f)return l;try{var g=q.parse(""+a);if(g&amp;&amp;(!g.K()||aa.test(g.U()))){var k=f(g,b,c,e);return k?k.toString():l}}catch(i){}return l}function m(a,b,c,e,f){c||a(b+" removed",{Q:"removed",tagName:b});if(e!==f){var g="changed";e&amp;&amp;!f?g="removed":!e&amp;&amp;f&amp;&amp;(g="added");a(b+"."+c+" "+g,{Q:g,tagName:b,ia:c,oldValue:e,newValue:f})}}function K(a,
+<span id="line771"></span>b,c){b=b+"::"+c;if(a.hasOwnProperty(b))return a[b];b="*::"+c;if(a.hasOwnProperty(b))return a[b]}function s(a,b,c,h,f){for(var g=0;g</span><span>&lt;b</span><span>.length;g+=2){var k=b[g],i=b[g+1],j=i,n=l,o;if((o=a+"::"+k,e.w.hasOwnProperty(o))||(o="*::"+k,e.w.hasOwnProperty(o)))n=e.w[o];if(n!==l)switch(n){case e.f.NONE:break;case e.f.SCRIPT:i=l;f&amp;&amp;m(f,a,k,j,i);break;case e.f.STYLE:if("undefined"===typeof I){i=l;f&amp;&amp;m(f,a,k,j,i);break}var p=[];I(i,{declaration:function(a,b){var d=a.toLowerCase();P(d,b,c?function(a){return J(a,
+<span id="line772"></span>e.N.ga,e.L.ha,{TYPE:"CSS",CSS_PROP:d},c)}:l);b.length&amp;&amp;p.push(d+": "+b.join(" "))}});i=0</span><span>&lt;p</span><span>.length?p.join(" ; "):l;f&amp;&amp;m(f,a,k,j,i);break;case e.f.ID:case e.f.IDREF:case e.f.IDREFS:case e.f.GLOBAL_NAME:case e.f.LOCAL_NAME:case e.f.CLASSES:i=h?h(i):i;f&amp;&amp;m(f,a,k,j,i);break;case e.f.URI:i=J(i,K(e.J,a,k),K(e.I,a,k),{TYPE:"MARKUP",XML_ATTR:k,XML_TAG:a},c);f&amp;&amp;m(f,a,k,j,i);break;case e.f.URI_FRAGMENT:i&amp;&amp;"#"===i.charAt(0)?(i=i.substring(1),i=h?h(i):i,i!==l&amp;&amp;void 0!==i&amp;&amp;(i="#"+i)):i=l;f&amp;&amp;m(f,a,k,j,i);break;
+<span id="line773"></span>default:i=l,f&amp;&amp;m(f,a,k,j,i)}else i=l,f&amp;&amp;m(f,a,k,j,i);b[g+1]=i}return b}function g(a,b,c){return function(g,f){if(e.e[g]&amp;e.c.UNSAFE)c&amp;&amp;m(c,g,void 0,void 0,void 0);else return{attribs:s(g,f,a,b,c)}}}function L(b,e){var c=[];a(e)(b,c);return c.join("")}var I,P;"undefined"!==typeof window&amp;&amp;(I=window.parseCssDeclarations,P=window.sanitizeCssProperty);var D={lt:"</span><span>&lt;"</span><span>,LT:"</span><span>&lt;"</span><span>,gt:"&gt;",GT:"&gt;",amp:"&amp;",AMP:"&amp;",quot:'"',apos:"'",nbsp:"\u00a0"},R=/^#(\d+)$/,S=/^#x([0-9A-Fa-f]+)$/,T=/^[A-Za-z][A-Za-z0-9]+$/,E="undefined"!==
+<span id="line774"></span>typeof window&amp;&amp;window.document?window.document.createElement("textarea"):l,$=/\0/g,U=/&amp;(#[0-9]+|#[xX][0-9A-Fa-f]+|\w+);/g,Y=/^(#[0-9]+|#[xX][0-9A-Fa-f]+|\w+);/,N=/&amp;/g,W=/&amp;([^a-z#]|#(?:[^0-9x]|x(?:[^0-9a-f]|$)|$)|$)/gi,F=/[</span><span>&lt;]</span><span>/g,G=/&gt;/g,V=/\"/g,Z=/^\s*([-.:\w]+)(?:\s*(=)\s*((")[^"]*("|$)|(')[^']*('|$)|(?=[a-z][-\w]*\s*=)|[^"'\s]*))?/i,X=3==="a,b".split(/(,)/).length,O=e.c.CDATA|e.c.RCDATA,t={},H={},aa=/^(?:https?|geo|mailto|sms|tel)$/i,o={};o.ka=o.escapeAttrib=v;o.la=o.escapePcdata=b;o.ma=o.makeHtmlSanitizer=
+<span id="line775"></span>a;o.na=o.makeSaxParser=z;o.oa=o.makeTagPolicy=g;o.qa=o.normalizeRCData=p;o.ra=o.sanitize=function(a,b,c,e){return L(a,g(b,c,e))};o.sa=o.sanitizeAttribs=s;o.ta=o.sanitizeWithPolicy=L;o.ua=o.unescapeEntities=u;return o}(M),ba=Q.sanitize;"undefined"!==typeof window&amp;&amp;(window.html=Q,window.html_sanitize=ba);})();
+<span id="line776"></span>;
+<span id="line777"></span>gadgets.config.init({"core.io":{"jsonProxyUrl":"//%host%/gadgets/makeRequest","proxyUrl":"//www.gmodules.com/gadgets/proxy/refresh=%refresh%&amp;container=%container%%rewriteMime%&amp;gadget=%gadget%/%rawurl%"},"shindig.auth":{"authToken":"","trustedJson":""},"core.util":{"core":{}}});
+<span id="line778"></span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>gadgets.Prefs.setMessages_({});gadgets.Prefs.setDefaultPrefs_({});gadgets.io.preloaded_=[];</span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">style</span>&gt;</span><span>
+<span id="line779"></span>        html,
+<span id="line780"></span>        body {
+<span id="line781"></span>            width: 100%;
+<span id="line782"></span>            height: 100%;
+<span id="line783"></span>            padding: 0;
+<span id="line784"></span>            margin: 0;
+<span id="line785"></span>            overflow: hidden;
+<span id="line786"></span>        }
+<span id="line787"></span>
+<span id="line788"></span>        #renderCanvas {
+<span id="line789"></span>            width: 100%;
+<span id="line790"></span>            height: 100%;
+<span id="line791"></span>            display: block;
+<span id="line792"></span>            font-size: 0;
+<span id="line793"></span>        }
+<span id="line794"></span>
+<span id="line795"></span>        #display728x90 {
+<span id="line796"></span>            position: absolute;
+<span id="line797"></span>            left: 0px;
+<span id="line798"></span>            right: 0px;
+<span id="line799"></span>            margin-left: auto;
+<span id="line800"></span>            margin-right: auto;
+<span id="line801"></span>            top: 20px;
+<span id="line802"></span>            width: 728px;
+<span id="line803"></span>            height: 90px;
+<span id="line804"></span>            display: none;
+<span id="line805"></span>            /*	background: #505050; */
+<span id="line806"></span>        }
+<span id="line807"></span>
+<span id="line808"></span>        #display320x50 {
+<span id="line809"></span>            position: absolute;
+<span id="line810"></span>            left: 0px;
+<span id="line811"></span>            right: 0px;
+<span id="line812"></span>            margin-left: auto;
+<span id="line813"></span>            margin-right: auto;
+<span id="line814"></span>            top: 10px;
+<span id="line815"></span>            width: 320px;
+<span id="line816"></span>            height: 50px;
+<span id="line817"></span>            display: none;
+<span id="line818"></span>            /*	background: #505050; */
+<span id="line819"></span>        }
+<span id="line820"></span>        .floating {
+<span id="line821"></span>    
+<span id="line822"></span>    position: absolute;
+<span id="line823"></span>    
+<span id="line824"></span>    animation-name: floating;
+<span id="line825"></span>    animation-duration: 1.5s;
+<span id="line826"></span>    animation-iteration-count: infinite;
+<span id="line827"></span>    animation-timing-function: ease-in-out;
+<span id="line828"></span>    
+<span id="line829"></span>    
+<span id="line830"></span>    }
+<span id="line831"></span>    
+<span id="line832"></span>    @keyframes floating {
+<span id="line833"></span>    from {
+<span id="line834"></span>        transform: translate(0, 0px);
+<span id="line835"></span>    }
+<span id="line836"></span>    
+<span id="line837"></span>    65% {
+<span id="line838"></span>        transform: translate(0, 15px);
+<span id="line839"></span>    }
+<span id="line840"></span>    
+<span id="line841"></span>    to {
+<span id="line842"></span>        transform: translate(0, -0px);
+<span id="line843"></span>    }
+<span id="line844"></span>    }
+<span id="line845"></span>    </span><span>&lt;/<span class="end-tag">style</span>&gt;</span><span>
+<span id="line846"></span>    </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Tunnel Rush</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line847"></span>    
+<span id="line848"></span>
+<span id="line849"></span>    </span><span class="comment">&lt;!--	&lt;link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" /&gt; --&gt;</span><span>
+<span id="line850"></span>    
+<span id="line851"></span>
+<span id="line852"></span> 
+<span id="line853"></span>
+<span id="line854"></span></span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span></span><span>&lt;<span class="start-tag">body</span> <span class="attribute-name">dir</span>="<a class="attribute-value">ltr</a>"&gt;</span><span></span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://sites.google.com/site/s039r8h4/pep.min.js">https://sites.google.com/site/s039r8h4/pep.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://sites.google.com/site/s039r8h4/jquery.min.js">https://sites.google.com/site/s039r8h4/jquery.min.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">type</span>="<a class="attribute-value">text/javascript</a>"&gt;</span><span>
+<span id="line855"></span>           window.SDK_OPTIONS = {
+<span id="line856"></span>              gameId: "r2tzpy9cgrn2u4xgzc9z0zbtvxm16mby",
+<span id="line857"></span>              onEvent: function (a) {
+<span id="line858"></span>                 switch (a.name) {
+<span id="line859"></span>                    case "SDK_GAME_PAUSE":
+<span id="line860"></span>                       // pause game logic / mute audio
+<span id="line861"></span>                       break;
+<span id="line862"></span>                    case "SDK_GAME_START":
+<span id="line863"></span>                       // advertisement done, resume game logic and unmute audio
+<span id="line864"></span>                       break;
+<span id="line865"></span>                    case "SDK_READY":
+<span id="line866"></span>                       // when sdk is ready
+<span id="line867"></span>                       break;
+<span id="line868"></span>                 }
+<span id="line869"></span>              }
+<span id="line870"></span>           };
+<span id="line871"></span>        (function (a, b, c) {
+<span id="line872"></span>           var d = a.getElementsByTagName(b)[0];
+<span id="line873"></span>           a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://cdn.jsdelivr.net/gh/st39/sdk@main/sdk.js", d.parentNode.insertBefore(a, d))
+<span id="line874"></span>        })(document, "script", "gamemonetize-sdk");
+<span id="line875"></span>
+<span id="line876"></span>		$(document).ready(function() {
+<span id="line877"></span>		 var strVar = '</span><span>&lt;d</span><span>iv style="position:fixed;top:0;right:0;bottom:0;left:0;z-index:999;" id="necrocliker"&gt;';
+<span id="line878"></span>		 $(document.body).append(strVar);
+<span id="line879"></span>		 $("#necrocliker").click(function () {
+<span id="line880"></span>		      if (typeof sdk !== 'undefined' &amp;&amp; sdk.showBanner !== 'undefined') {
+<span id="line881"></span>		            sdk.showBanner();
+<span id="line882"></span>		        }
+<span id="line883"></span>		            $('#necrocliker').hide();
+<span id="line884"></span>		   });
+<span id="line885"></span>		});
+<span id="line886"></span>		window.setInterval(function(){
+<span id="line887"></span>		        $('#necrocliker').show();
+<span id="line888"></span>		}, 145000);
+<span id="line889"></span>        </span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line890"></span>    </span><span>&lt;<span class="start-tag">canvas</span> <span class="attribute-name">id</span>="<a class="attribute-value">renderCanvas</a>" <span class="attribute-name">touch-action</span>="<a class="attribute-value">none</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">canvas</span>&gt;</span><span>
+<span id="line891"></span>
+<span id="line892"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">display728x90</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line893"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">display320x50</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line894"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://eng-docs-opensocial.googleusercontent.com/gadgets/proxy?container=fbk&amp;url=https://sites.google.com/site/s039r8h4/6main.js">https://eng-docs-opensocial.googleusercontent.com/gadgets/proxy?container=fbk<span class="entity"><span>&amp;</span>amp;</span>url=https://sites.google.com/site/s039r8h4/6main.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line895"></span>
+<span id="line896"></span>
+<span id="line897"></span>
+<span id="line898"></span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>gadgets.util.runOnLoadHandlers();</span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>window.google.csi.tickDl();
+<span id="line899"></span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span></span></pre></body></html>
